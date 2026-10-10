@@ -68,7 +68,3 @@ Submitting jobs spends IBM Quantum Open Plan time; every submission script has a
 ## Licences
 
 Code (`scripts/`) under the MIT licence (`LICENSE`). Data and manuscript (`data/`, `paper/`) under CC BY 4.0 (`data/LICENSE`).
-
-## AI-assistance disclosure
-
-The manuscript text and the analysis, submission and consistency-check scripts were drafted with the assistance of Claude (Anthropic), which also proposed the design of the September re-execution experiments and the reconstruction method, under the author's direction. The author ran all docking and hardware executions, verified every reported number against the raw job records, and is responsible for the content.
