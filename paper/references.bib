@@ -1,0 +1,535 @@
+% references.bib -- Quantum-Vina (QST submission, reframed 5 September 2026)
+% Built 4 September 2026 for the original framing; the paper was reframed on
+% 5 September around the penalty-formulation audit after Zheng (arXiv:2607.09737)
+% and Chen (arXiv:2608.19868) pre-empted the hardware-first claim. All entries
+% retained; uncited entries are harmless under iopart-num. Entries marked "% VERIFIED 2026-09-04" were checked
+% against the arXiv abstract page, publisher page, or repository this session.
+% The last open "% VERIFY" fields were resolved on 2026-10-10 (Papalitsas given names,
+% Chen 1994 initials, Levell 2005 pagination); the unverified GitHub-issue entry was removed.
+% Nothing below is invented; where a field was unavailable it is omitted rather than guessed.
+%
+% Section A -- Quantum docking on gate-model hardware (cite-and-distinguish, mandatory)
+% Section B -- Quantum docking, simulation only
+% Section C -- Quantum docking, other paradigms (annealing, GBS, neutral atoms)
+% Section D -- Classical docking and the Vina lineage
+% Section E -- QAOA, QUBO/Ising, decomposition, warm start
+% Section F -- Software, hardware, transpilation
+% Section G -- Drug-discovery motivation
+
+% =====================================================================
+% A. QUANTUM DOCKING EXECUTED ON GATE-MODEL HARDWARE
+% =====================================================================
+
+% VERIFIED 2026-09-04 (arXiv abstract page + full-text HTML v1). Two separate
+% results, do not merge: (i) SIMULATION (abstract, Table III): DC-QAOA recovers
+% the exact optimum on 8 of 11 targets at 10 qubits, mean AR 0.94, 52% exact.
+% (ii) HARDWARE (full text, Table IV, not the abstract): backend ibm_rensselaer
+% (Eagle r3); 1000 circuits = 250 molecules x 4 configurations, so one circuit
+% execution per instance-configuration (inferred, not stated by the authors);
+% BOTH 6- and 10-qubit configurations ran on hardware; 6-qubit match 65%,
+% 10-qubit match 13% (noise-limited). Posted 2 July 2026, four days before
+% the Marrakesh run. Primary class physics.chem-ph (cross-list cs.LG).
+@article{zheng2026qscore,
+  author        = {Zheng, Kangyu and Zhou, Yidong and Li, Ruihao and Ding, Zixin and Liang, Zhiding and Li, Shaohua},
+  title         = {{Q-Score}: A Quantum-Native Scoring Function for Molecular Docking},
+  journal       = {arXiv preprint},
+  eprint        = {2607.09737},
+  archivePrefix = {arXiv},
+  primaryClass  = {physics.chem-ph},
+  year          = {2026},
+  doi           = {10.48550/arXiv.2607.09737},
+  note          = {arXiv:2607.09737}
+}
+
+% VERIFIED 2026-09-04 (arXiv HTML v1, 20 Aug 2026). Warm-start full-basis
+% encoding, variational (not QAOA), MVWCP docking. Hardware: IBM Heron r2,
+% ibm_kingston (156 qubits) -- same processor generation as the Marrakesh/Fez
+% runs. Six qubits encode 18 variables in one test, five encode 14 in the
+% other; both recover the classical contacts. Classical front end: none;
+% pharmacophores taken from the PDB structures following Ding's criteria, built
+% with NetworkX and PyMOL. 1000 repetitions in SIMULATION; hardware repetitions
+% not stated. Compression is why the 11-for-11 encoding reads as resource-naive.
+@article{chen2026fbe,
+  author        = {Chen, Tianqi and Mak, Adrian M. and Li, Jianguo and Kong, Jian Feng and Verma, Chandra and Maurer-Stroh, Sebastian},
+  title         = {Resource-Efficient Bio-Molecular Docking on a {NISQ}-era Digital Quantum Computer},
+  journal       = {arXiv preprint},
+  eprint        = {2608.19868},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  year          = {2026},
+  note          = {arXiv:2608.19868}
+}
+
+% VERIFIED 2026-09-04 (arXiv abstract page, v2 11 Dec 2025). Hydration-site
+% prediction, not pose optimisation; QUBO + 3D-RISM + Q-CTRL solver on Heron r2
+% (ibm_kingston) and r3 (ibm_pittsburgh) up to 123 qubits.
+@article{loco2025hydration,
+  author        = {Loco, Daniele and Barkemeyer, Kisa and Carvalho, Andre R. R. and Piquemal, Jean-Philip},
+  title         = {Practical protein-pocket hydration-site prediction for drug discovery on a quantum computer},
+  journal       = {arXiv preprint},
+  eprint        = {2512.08390},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  year          = {2025},
+  doi           = {10.48550/arXiv.2512.08390}
+}
+
+% =====================================================================
+% B. QUANTUM DOCKING, SIMULATION ONLY
+% =====================================================================
+
+% VERIFIED 2026-09-04 (arXiv 2308.04098 + PR Applied citation in Garrigues refs).
+@article{ding2024docking,
+  author  = {Ding, Qi-Ming and Huang, Yi-Ming and Yuan, Xiao},
+  title   = {Molecular docking via quantum approximate optimization algorithm},
+  journal = {Physical Review Applied},
+  volume  = {21},
+  number  = {3},
+  pages   = {034036},
+  year    = {2024},
+  doi     = {10.1103/PhysRevApplied.21.034036},
+  note    = {arXiv:2308.04098}
+}
+
+% VERIFIED 2026-09-04 (arXiv abstract page). DC-QAOA, 14- and 17-node instances,
+% simulated on GPU cluster (CUDA-Q, Pfizer HPC). NOT "Krasniqi" -- never cite it that way.
+% Given names VERIFIED 2026-10-10 against the arXiv abstract page (v1, 6 Mar 2025).
+@article{papalitsas2025qaoa,
+  author        = {Papalitsas, Christos and Guan, Yanfei and Waghe, Shreyas and Liakos, Athanasios and Balatsos, Ioannis and Pantazopoulos, Vassilios},
+  title         = {Quantum Approximate Optimization Algorithms for Molecular Docking},
+  journal       = {arXiv preprint},
+  eprint        = {2503.04239},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  year          = {2025},
+  note          = {arXiv:2503.04239}
+}
+
+% =====================================================================
+% C. QUANTUM DOCKING, OTHER PARADIGMS
+% =====================================================================
+
+% VERIFIED 2026-09-04 (arXiv abstract + HTML v2 24 Apr 2026). MWIS (not clique),
+% emu-sv emulator, analog annealing, divide-and-conquer credited to Cazals et al.
+% The paper and its arXiv page print only the initial S. for Acheche (checked 2026-10-10); not a gap.
+@article{garrigues2026scalable,
+  author        = {Garrigues, Mathieu and Onofre, Victor and Coelho, Wesley and Acheche, S.},
+  title         = {A Scalable Heuristic for Molecular Docking on Neutral-Atom Quantum Processors},
+  journal       = {arXiv preprint},
+  eprint        = {2508.18147},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  year          = {2026},
+  note          = {arXiv:2508.18147v2}
+}
+
+% VERIFIED 2026-09-04 (arXiv abstract page). Source of the divide-and-conquer
+% heuristic Garrigues uses; do not attribute decomposition novelty over this.
+@article{cazals2025rydberg,
+  author        = {Cazals, Pierre and Sorondo, Amalia and Onofre, Victor and Dalyac, Constantin and da Silva Coelho, Wesley and Vitale, Vittorio},
+  title         = {Quantum Optimization on {R}ydberg Atom Arrays with Arbitrary Connectivity: Gadgets Limitations and a Heuristic Approach},
+  journal       = {arXiv preprint},
+  eprint        = {2508.06130},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  year          = {2025},
+  note          = {arXiv:2508.06130}
+}
+
+% VERIFIED 2026-09-04 (arXiv PDF author block). Author order is Garrigues, Onofre,
+% Bosc-Haddad -- the handoff's "Onofre et al." is wrong.
+@article{garrigues2024towards,
+  author        = {Garrigues, Mathieu and Onofre, Victor and Bosc-Haddad, No{\'e}},
+  title         = {Towards molecular docking with neutral atoms},
+  journal       = {arXiv preprint},
+  eprint        = {2402.06770},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  year          = {2024},
+  note          = {arXiv:2402.06770}
+}
+
+% VERIFIED 2026-09-04 (arXiv abstract page, 10 Apr 2026, cs.ET).
+@article{micucci2026subgraph,
+  author        = {Micucci, Francesco and Barbieri, Matteo and Bettonte, Gabriella and Bonanni, Domenico and Camillini, Anita and Fava, Anna and Gregori, Daniele and Beccari, Andrea R. and Palermo, Gianluca},
+  title         = {A Physically-Informed Subgraph Isomorphism Approach to Molecular Docking Using Quantum Annealers},
+  journal       = {arXiv preprint},
+  eprint        = {2604.09540},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.ET},
+  year          = {2026},
+  note          = {arXiv:2604.09540}
+}
+
+% VERIFIED 2026-09-04 (arXiv abstract page v2).
+@article{triuzzi2025weighted,
+  author        = {Triuzzi, Emanuele and Mengoni, Riccardo and Micucci, Francesco and Bonanni, Domenico and Ottaviani, Daniele and Beccari, Andrea and Palermo, Gianluca},
+  title         = {Molecular Docking via Weighted Subgraph Isomorphism on Quantum Annealers},
+  journal       = {arXiv preprint},
+  eprint        = {2405.06657},
+  archivePrefix = {arXiv},
+  primaryClass  = {q-bio.BM},
+  year          = {2025},
+  doi           = {10.48550/arXiv.2405.06657}
+}
+
+% VERIFIED 2026-09-04 (ACS Omega page, 14 Jul 2026). Recent; annealing-side
+% physically informed QUBO. Optional cite in Related Work.
+@article{beneventi2026pistacking,
+  author  = {Beneventi, Alessandro and Camillini, Anita and Micucci, Francesco and Bettonte, Gabriella and Barbieri, Matteo and Palermo, Gianluca and Beccari, Andrea Rosario and Bonanni, Domenico},
+  title   = {A Physically Informed {QUBO} Model for $\pi$-Stacking Interactions in Molecular Docking Problems},
+  journal = {ACS Omega},
+  volume  = {11},
+  number  = {27},
+  pages   = {40283--40301},
+  year    = {2026},
+  doi     = {10.1021/acsomega.6c02707}
+}
+
+% VERIFIED 2026-09-04 (reference list of Garrigues 2024).
+@article{banchi2020gbs,
+  author  = {Banchi, Leonardo and Fingerhuth, Mark and Babej, Tomas and Ing, Christopher and Arrazola, Juan Miguel},
+  title   = {Molecular docking with {G}aussian boson sampling},
+  journal = {Science Advances},
+  volume  = {6},
+  number  = {23},
+  pages   = {eaax1950},
+  year    = {2020},
+  doi     = {10.1126/sciadv.aax1950}
+}
+
+% VERIFIED 2026-09-04 (Nature Computational Science page). Published 2023,
+% not 2024 as the handoff had it.
+@article{yu2023gbs,
+  author  = {Yu, Shang and Zhong, Zhi-Peng and Fang, Yuhua and Patel, Raj B. and Li, Qing-Peng and Liu, Wei and Li, Zhenghao and Xu, Liang and Sagona-Stophel, Steven and Mer, Ewan and Thomas, Sarah E. and Meng, Yu and Li, Zhi-Peng and Yang, Yuan-Ze and Wang, Zhao-An and Guo, Nai-Jie and Zhang, Wen-Hao and Tranmer, Geoffrey K. and Dong, Ying and Wang, Yi-Tao and Tang, Jian-Shun and Li, Chuan-Feng and Walmsley, Ian A. and Guo, Guang-Can},
+  title   = {A universal programmable {G}aussian boson sampler for drug discovery},
+  journal = {Nature Computational Science},
+  volume  = {3},
+  number  = {10},
+  pages   = {839--848},
+  year    = {2023},
+  doi     = {10.1038/s43588-023-00526-y}
+}
+
+% VERIFIED 2026-09-04 (arXiv HTML v1 author block, 18 Mar 2026).
+@article{ansari2026convergence,
+  author        = {Ansari, Narjes and Feniou, C{\'e}sar and Gouraud, Nicola{\"i} and Loco, Daniele and Badreddine, Siwar and Claudon, Baptiste and Aviat, F{\'e}lix and Blazhynska, Marharyta and Gasperich, Kevin and Michel, Guillaume and Traore, Diata and Villot, Corentin and Pl{\'e}, Thomas and Adjoua, Olivier and Lagard{\`e}re, Louis and Piquemal, Jean-Philip},
+  title         = {The Convergence Frontier: Integrating Machine Learning and High Performance Quantum Computing for Next-Generation Drug Discovery},
+  journal       = {arXiv preprint},
+  eprint        = {2603.17790},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  year          = {2026},
+  note          = {arXiv:2603.17790}
+}
+
+% =====================================================================
+% D. CLASSICAL DOCKING AND THE VINA LINEAGE
+% =====================================================================
+
+% Stable, widely cited; details from training. Confirm DOI resolves.
+@article{trott2010vina,
+  author  = {Trott, Oleg and Olson, Arthur J.},
+  title   = {{AutoDock Vina}: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading},
+  journal = {Journal of Computational Chemistry},
+  volume  = {31},
+  number  = {2},
+  pages   = {455--461},
+  year    = {2010},
+  doi     = {10.1002/jcc.21334}
+}
+
+% Stable; details from training. Confirm DOI resolves.
+@article{eberhardt2021vina12,
+  author  = {Eberhardt, Jerome and Santos-Martins, Diogo and Tillack, Andreas F. and Forli, Stefano},
+  title   = {{AutoDock Vina 1.2.0}: New Docking Methods, Expanded Force Field, and {P}ython Bindings},
+  journal = {Journal of Chemical Information and Modeling},
+  volume  = {61},
+  number  = {8},
+  pages   = {3891--3898},
+  year    = {2021},
+  doi     = {10.1021/acs.jcim.1c00203}
+}
+
+% VERIFIED 2026-09-04 (DeltaGroupNJUPT README).
+@article{tang2022vinagpu,
+  author  = {Tang, Shidi and Chen, Ruiqi and Lin, Mengru and Lin, Qingde and Zhu, Yanxiang and Ding, Ji and Hu, Haifeng and Ling, Ming and Wu, Jiansheng},
+  title   = {Accelerating {AutoDock Vina} with {GPUs}},
+  journal = {Molecules},
+  volume  = {27},
+  number  = {9},
+  pages   = {3041},
+  year    = {2022},
+  doi     = {10.3390/molecules27093041}
+}
+
+% VERIFIED 2026-09-04 (ACS JCIM page).
+@article{ding2023vinagpu2,
+  author  = {Ding, Ji and Tang, Shidi and Mei, Zheming and Wang, Lingyue and Huang, Qinqin and Hu, Haifeng and Ling, Ming and Wu, Jiansheng},
+  title   = {{Vina-GPU 2.0}: Further Accelerating {AutoDock Vina} and Its Derivatives with Graphics Processing Units},
+  journal = {Journal of Chemical Information and Modeling},
+  volume  = {63},
+  number  = {7},
+  pages   = {1982--1998},
+  year    = {2023},
+  doi     = {10.1021/acs.jcim.2c01504}
+}
+
+% VERIFIED 2026-09-04 (IEEE CSDL + ACM DL pages). The tool actually used.
+@article{tang2024vinagpu21,
+  author  = {Tang, Shidi and Ding, Ji and Zhu, Xiangyu and Wang, Zheng and Zhao, Haitao and Wu, Jiansheng},
+  title   = {{Vina-GPU 2.1}: Towards Further Optimizing Docking Speed and Precision of {AutoDock Vina} and Its Derivatives},
+  journal = {IEEE/ACM Transactions on Computational Biology and Bioinformatics},
+  volume  = {21},
+  number  = {6},
+  pages   = {2382--2393},
+  year    = {2024},
+  doi     = {10.1109/TCBB.2024.3467127},
+  note    = {Code: \url{https://github.com/DeltaGroupNJUPT/Vina-GPU-2.1}}
+}
+
+% VERIFIED 2026-09-04 (RCSB and PDBe entry pages, primary citation). PDB 1HSG.
+% Author initials VERIFIED 2026-10-10 against the CrossRef record (the source records initials only).
+@article{chen1994hsg,
+  author  = {Chen, Z. and Li, Y. and Chen, E. and Hall, D. L. and Darke, P. L. and Culberson, C. and Shafer, J. A. and Kuo, L. C.},
+  title   = {Crystal structure at 1.9-{\AA} resolution of human immunodeficiency virus ({HIV}) {II} protease complexed with {L-735,524}, an orally bioavailable inhibitor of the {HIV} proteases},
+  journal = {Journal of Biological Chemistry},
+  volume  = {269},
+  number  = {42},
+  pages   = {26344--26348},
+  year    = {1994},
+  doi     = {10.1016/S0021-9258(18)47199-2},
+  note    = {PDB entry 1HSG}
+}
+
+% VERIFIED 2026-09-04 by Suriya against RCSB. PDB 2BM2 is human beta-II
+% tryptase, NOT YAP-TEAD. Author list deliberately truncated to three + others
+% (35 authors per CrossRef); this is not an unresolved gap. Volume 13, issue 8, pages 2859--2872
+% and DOI VERIFIED 2026-10-10 against the CrossRef record and the RCSB primary citation.
+@article{levell2005tryptase,
+  author  = {Levell, Julian and Astles, Peter and Eastwood, Paul and others},
+  title   = {Structure based design of 4-(3-aminomethylphenyl)piperidinyl-1-amides: novel, potent, selective, and orally bioavailable inhibitors of $\beta${II} tryptase},
+  journal = {Bioorganic \& Medicinal Chemistry},
+  volume  = {13},
+  number  = {8},
+  pages   = {2859--2872},
+  year    = {2005},
+  doi     = {10.1016/j.bmc.2005.02.014},
+  note    = {PDB entry 2BM2. PMID 15781396}
+}
+
+% Metadata VERIFIED 2026-09-04 (reference list of Garrigues 2024). Text NOT read
+% (closed access). Cite only for the geometric sphere-matching lineage; the
+% clique / binding-interaction-graph formulation is credited to Kuhl 1984, per
+% Banchi et al. Never write "introduced by" against this entry.
+@article{kuntz1982geometric,
+  author  = {Kuntz, Irwin D. and Blaney, Jeffrey M. and Oatley, S. J. and Langridge, Robert and Ferrin, Thomas E.},
+  title   = {A geometric approach to macromolecule-ligand interactions},
+  journal = {Journal of Molecular Biology},
+  volume  = {161},
+  number  = {2},
+  pages   = {269--288},
+  year    = {1982},
+  doi     = {10.1016/0022-2836(82)90153-X}
+}
+
+% VERIFIED 2026-09-04 by Suriya (Nature page). 170M-compound library; 99M docked
+% against AmpC and 138M against D4. Never write "170M docked".
+@article{lyu2019ultralarge,
+  author  = {Lyu, Jiankun and Wang, Sheng and Balius, Trent E. and Singh, Isha and Levit, Anat and Moroz, Yurii S. and O'Meara, Matthew J. and Che, Tao and Algaa, Enkhjargal and Tolmachova, Kateryna and Tolmachev, Andrey A. and Shoichet, Brian K. and Roth, Bryan L. and Irwin, John J.},
+  title   = {Ultra-large library docking for discovering new chemotypes},
+  journal = {Nature},
+  volume  = {566},
+  number  = {7743},
+  pages   = {224--229},
+  year    = {2019},
+  doi     = {10.1038/s41586-019-0917-9}
+}
+
+% VERIFIED 2026-09-04 by Suriya. The paper Banchi et al. credit for the binding
+% interaction graph / clique formulation. Cite this, not Kuntz, as the origin.
+@article{kuhl1984combinatorial,
+  author  = {Kuhl, F. S. and Crippen, G. M. and Friesen, D. K.},
+  title   = {A combinatorial algorithm for calculating ligand binding},
+  journal = {Journal of Computational Chemistry},
+  volume  = {5},
+  number  = {1},
+  pages   = {24--34},
+  year    = {1984},
+  doi     = {10.1002/jcc.540050105}
+}
+
+% =====================================================================
+% E. QAOA, QUBO / ISING, DECOMPOSITION, WARM START
+% =====================================================================
+
+% Stable; details from training.
+@article{farhi2014qaoa,
+  author        = {Farhi, Edward and Goldstone, Jeffrey and Gutmann, Sam},
+  title         = {A Quantum Approximate Optimization Algorithm},
+  journal       = {arXiv preprint},
+  eprint        = {1411.4028},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  year          = {2014},
+  note          = {arXiv:1411.4028}
+}
+
+% Stable; details from training.
+@article{lucas2014ising,
+  author  = {Lucas, Andrew},
+  title   = {Ising formulations of many {NP} problems},
+  journal = {Frontiers in Physics},
+  volume  = {2},
+  pages   = {5},
+  year    = {2014},
+  doi     = {10.3389/fphy.2014.00005}
+}
+
+% VERIFIED 2026-09-04 (cited in search results as arXiv:1811.11538).
+@article{glover2019qubo,
+  author        = {Glover, Fred and Kochenberger, Gary and Du, Yu},
+  title         = {A Tutorial on Formulating and Using {QUBO} Models},
+  journal       = {arXiv preprint},
+  eprint        = {1811.11538},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.DS},
+  year          = {2019},
+  note          = {arXiv:1811.11538}
+}
+
+% Stable; details from training. RQAOA -- cite when describing the
+% classical-recombination idea; do not claim decomposition novelty.
+@article{bravyi2020obstacles,
+  author  = {Bravyi, Sergey and Kliesch, Alexander and Koenig, Robert and Tang, Eugene},
+  title   = {Obstacles to Variational Quantum Optimization from Symmetry Protection},
+  journal = {Physical Review Letters},
+  volume  = {125},
+  number  = {26},
+  pages   = {260505},
+  year    = {2020},
+  doi     = {10.1103/PhysRevLett.125.260505}
+}
+
+% Stable; details from training. QAOA depth/plateau behaviour.
+@article{zhou2020qaoa,
+  author  = {Zhou, Leo and Wang, Sheng-Tao and Choi, Soonwon and Pichler, Hannes and Lukin, Mikhail D.},
+  title   = {Quantum Approximate Optimization Algorithm: Performance, Mechanism, and Implementation on Near-Term Devices},
+  journal = {Physical Review X},
+  volume  = {10},
+  number  = {2},
+  pages   = {021067},
+  year    = {2020},
+  doi     = {10.1103/PhysRevX.10.021067}
+}
+
+% Stable; details from training (also [8] in the JMSE paper). Quantum Alternating Operator Ansatz.
+@article{hadfield2019qaoa,
+  author  = {Hadfield, Stuart and Wang, Zhihui and O'Gorman, Bryan and Rieffel, Eleanor G. and Venturelli, Davide and Biswas, Rupak},
+  title   = {From the Quantum Approximate Optimization Algorithm to a Quantum Alternating Operator Ansatz},
+  journal = {Algorithms},
+  volume  = {12},
+  number  = {2},
+  pages   = {34},
+  year    = {2019},
+  doi     = {10.3390/a12020034}
+}
+
+% Stable; details from training. Warm-start QAOA (Related Work only).
+@article{egger2021warmstart,
+  author  = {Egger, Daniel J. and Mare{\v{c}}ek, Jakub and Woerner, Stefan},
+  title   = {Warm-starting quantum optimization},
+  journal = {Quantum},
+  volume  = {5},
+  pages   = {479},
+  year    = {2021},
+  doi     = {10.22331/q-2021-06-17-479}
+}
+
+% Stable; details from training. Cite for the NISQ framing sentence.
+@article{preskill2018nisq,
+  author  = {Preskill, John},
+  title   = {Quantum Computing in the {NISQ} era and beyond},
+  journal = {Quantum},
+  volume  = {2},
+  pages   = {79},
+  year    = {2018},
+  doi     = {10.22331/q-2018-08-06-79}
+}
+
+% =====================================================================
+% F. SOFTWARE, HARDWARE, TRANSPILATION
+% =====================================================================
+
+% Stable; details from training. Qiskit SDK paper.
+@article{javadiabhari2024qiskit,
+  author        = {Javadi-Abhari, Ali and Treinish, Matthew and Krsulich, Kevin and Wood, Christopher J. and Lishman, Jake and Gacon, Julien and Martiel, Simon and Nation, Paul D. and Bishop, Lev S. and Cross, Andrew W. and Johnson, Blake R. and Gambetta, Jay M.},
+  title         = {Quantum computing with {Qiskit}},
+  journal       = {arXiv preprint},
+  eprint        = {2405.08810},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  year          = {2024},
+  note          = {arXiv:2405.08810}
+}
+
+% Stable; details from training. SABRE layout/routing -- cite for the
+% optimization_level=3 non-determinism discussion.
+@inproceedings{li2019sabre,
+  author    = {Li, Gushu and Ding, Yufei and Xie, Yuan},
+  title     = {Tackling the Qubit Mapping Problem for {NISQ}-Era Quantum Devices},
+  booktitle = {Proceedings of the 24th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},
+  pages     = {1001--1014},
+  year      = {2019},
+  doi       = {10.1145/3297858.3304023}
+}
+
+}
+
+% Software citation for the runtime client used (0.49.0 in qpyenv).
+@misc{qiskitibmruntime,
+  author       = {{IBM Quantum}},
+  title        = {qiskit-ibm-runtime},
+  howpublished = {\url{https://github.com/Qiskit/qiskit-ibm-runtime}},
+  year         = {2026},
+  note         = {Version 0.49.0}
+}
+
+% Device documentation. IBM does not publish a single Heron paper to cite;
+% use the documentation page and the retrieved calibration snapshots.
+@misc{ibmheron,
+  author       = {{IBM Quantum}},
+  title        = {{IBM Quantum} processor types: {Heron}},
+  howpublished = {\url{https://docs.quantum.ibm.com/guides/processor-types}},
+  year         = {2026},
+  note         = {Accessed September 2026}
+}
+
+% =====================================================================
+% G. DRUG-DISCOVERY MOTIVATION
+% =====================================================================
+
+% Stable; details from training.
+@article{dimasi2016cost,
+  author  = {DiMasi, Joseph A. and Grabowski, Henry G. and Hansen, Ronald W.},
+  title   = {Innovation in the pharmaceutical industry: New estimates of {R\&D} costs},
+  journal = {Journal of Health Economics},
+  volume  = {47},
+  pages   = {20--33},
+  year    = {2016},
+  doi     = {10.1016/j.jhealeco.2016.01.012}
+}
+
+% Stable; details from training. Corrected 20 Sep 2022: use $1141.7M median /
+% $1559.1M mean (2018 USD). Pre-correction values $985.3M / $1335.9M are
+% superseded; a pre-correction PDF will show the old figures.
+@article{wouters2020cost,
+  author  = {Wouters, Olivier J. and McKee, Martin and Luyten, Jeroen},
+  title   = {Estimated Research and Development Investment Needed to Bring a New Medicine to Market, 2009--2018},
+  journal = {JAMA},
+  volume  = {323},
+  number  = {9},
+  pages   = {844--853},
+  year    = {2020},
+  doi     = {10.1001/jama.2020.1166}
+}

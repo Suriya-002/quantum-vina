@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use these data or scripts, cite the manuscript below and this repository."
+type: dataset
+title: "Quantum-Vina: data and scripts for 'Penalty strength and instance size in quantum approximate optimization of molecular docking on superconducting processors'"
+authors:
+  - family-names: Rajavel
+    given-names: Suriya Narayanan
+    orcid: https://orcid.org/0009-0003-2590-0099
+version: 1.0.0
+date-released: 2026-10-10
+repository-code: https://github.com/Suriya-002/quantum-vina
+license: MIT
+preferred-citation:
+  type: unpublished
+  title: "Penalty strength and instance size in quantum approximate optimization of molecular docking on superconducting processors"
+  authors:
+    - family-names: Rajavel
+      given-names: Suriya Narayanan
+      orcid: https://orcid.org/0009-0003-2590-0099
+  year: 2026
+  notes: "Manuscript submitted to Quantum Science and Technology, October 2026"

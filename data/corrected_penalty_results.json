@@ -1,0 +1,1337 @@
+{
+ "monolithic": [
+  {
+   "target": "2bm2",
+   "arm": "monolithic_p1",
+   "run": 1,
+   "job_id": "dae331bdd5gc73d82bm0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:08.070230",
+   "depth": 243,
+   "ops": {
+    "sx": 269,
+    "rz": 168,
+    "cz": 130,
+    "measure": 11,
+    "x": 2
+   },
+   "final_index_layout": [
+    9,
+    33,
+    30,
+    32,
+    31,
+    14,
+    13,
+    12,
+    18,
+    10,
+    11
+   ],
+   "shots": 4096,
+   "valid_shots": 1115,
+   "valid_frac": 0.272216796875,
+   "n_valid": 37,
+   "xstar_shots": 28,
+   "xstar_over_uniform": 0.9291479820627803,
+   "top_state": "00000000000",
+   "top_state_valid": false,
+   "top_state_count": 119,
+   "ideal_valid_frac": 0.5682294026757779,
+   "ideal_xstar_prob": 0.006376963282619616,
+   "ideal_xstar_over_uniform": 0.4152330737301771,
+   "ideal_top_state": "00000000000"
+  },
+  {
+   "target": "2bm2",
+   "arm": "monolithic_p1",
+   "run": 2,
+   "job_id": "dae331lnj4cs73aejuj0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:08.070230",
+   "depth": 243,
+   "ops": {
+    "sx": 269,
+    "rz": 168,
+    "cz": 130,
+    "measure": 11,
+    "x": 2
+   },
+   "final_index_layout": [
+    9,
+    33,
+    30,
+    32,
+    31,
+    14,
+    13,
+    12,
+    18,
+    10,
+    11
+   ],
+   "shots": 4096,
+   "valid_shots": 1113,
+   "valid_frac": 0.271728515625,
+   "n_valid": 37,
+   "xstar_shots": 29,
+   "xstar_over_uniform": 0.9640610961365679,
+   "top_state": "00000000000",
+   "top_state_valid": false,
+   "top_state_count": 107,
+   "ideal_valid_frac": 0.5682294026757779,
+   "ideal_xstar_prob": 0.006376963282619616,
+   "ideal_xstar_over_uniform": 0.4152330737301771,
+   "ideal_top_state": "00000000000"
+  },
+  {
+   "target": "2bm2",
+   "arm": "monolithic_p1",
+   "run": 3,
+   "job_id": "dae331t1ierc738ljdl0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:08.070230",
+   "depth": 243,
+   "ops": {
+    "sx": 269,
+    "rz": 168,
+    "cz": 130,
+    "measure": 11,
+    "x": 2
+   },
+   "final_index_layout": [
+    9,
+    33,
+    30,
+    32,
+    31,
+    14,
+    13,
+    12,
+    18,
+    10,
+    11
+   ],
+   "shots": 4096,
+   "valid_shots": 1063,
+   "valid_frac": 0.259521484375,
+   "n_valid": 37,
+   "xstar_shots": 25,
+   "xstar_over_uniform": 0.8701787394167451,
+   "top_state": "00000000000",
+   "top_state_valid": false,
+   "top_state_count": 107,
+   "ideal_valid_frac": 0.5682294026757779,
+   "ideal_xstar_prob": 0.006376963282619616,
+   "ideal_xstar_over_uniform": 0.4152330737301771,
+   "ideal_top_state": "00000000000"
+  },
+  {
+   "target": "2bm2",
+   "arm": "monolithic_p1",
+   "run": 4,
+   "job_id": "dae331tnj4cs73aejul0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:08.070230",
+   "depth": 243,
+   "ops": {
+    "sx": 269,
+    "rz": 168,
+    "cz": 130,
+    "measure": 11,
+    "x": 2
+   },
+   "final_index_layout": [
+    9,
+    33,
+    30,
+    32,
+    31,
+    14,
+    13,
+    12,
+    18,
+    10,
+    11
+   ],
+   "shots": 4096,
+   "valid_shots": 1099,
+   "valid_frac": 0.268310546875,
+   "n_valid": 37,
+   "xstar_shots": 33,
+   "xstar_over_uniform": 1.111010009099181,
+   "top_state": "00000010000",
+   "top_state_valid": true,
+   "top_state_count": 112,
+   "ideal_valid_frac": 0.5682294026757779,
+   "ideal_xstar_prob": 0.006376963282619616,
+   "ideal_xstar_over_uniform": 0.4152330737301771,
+   "ideal_top_state": "00000000000"
+  },
+  {
+   "target": "2bm2",
+   "arm": "monolithic_p1",
+   "run": 5,
+   "job_id": "dae3325nj4cs73aejum0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:08.070230",
+   "depth": 243,
+   "ops": {
+    "sx": 269,
+    "rz": 168,
+    "cz": 130,
+    "measure": 11,
+    "x": 2
+   },
+   "final_index_layout": [
+    9,
+    33,
+    30,
+    32,
+    31,
+    14,
+    13,
+    12,
+    18,
+    10,
+    11
+   ],
+   "shots": 4096,
+   "valid_shots": 974,
+   "valid_frac": 0.23779296875,
+   "n_valid": 37,
+   "xstar_shots": 19,
+   "xstar_over_uniform": 0.7217659137577003,
+   "top_state": "00000011000",
+   "top_state_valid": false,
+   "top_state_count": 96,
+   "ideal_valid_frac": 0.5682294026757779,
+   "ideal_xstar_prob": 0.006376963282619616,
+   "ideal_xstar_over_uniform": 0.4152330737301771,
+   "ideal_top_state": "00000000000"
+  },
+  {
+   "target": "1hsg",
+   "arm": "monolithic_p1",
+   "run": 1,
+   "job_id": "dae335tnj4cs73aejv20",
+   "backend": "ibm_fez",
+   "last_update": "2026-09-05 10:44:08-04:00",
+   "submitted": "2026-09-05T11:13:27.220659",
+   "depth": 251,
+   "ops": {
+    "sx": 314,
+    "rz": 193,
+    "cz": 164,
+    "measure": 11,
+    "x": 4
+   },
+   "final_index_layout": [
+    147,
+    145,
+    146,
+    141,
+    142,
+    144,
+    122,
+    124,
+    143,
+    123,
+    136
+   ],
+   "shots": 4096,
+   "valid_shots": 1343,
+   "valid_frac": 0.327880859375,
+   "n_valid": 33,
+   "xstar_shots": 12,
+   "xstar_over_uniform": 0.29486224869694716,
+   "top_state": "00000000000",
+   "top_state_valid": false,
+   "top_state_count": 189,
+   "ideal_valid_frac": 0.5836306242796321,
+   "ideal_xstar_prob": 0.005102032547021763,
+   "ideal_xstar_over_uniform": 0.2884822472424773,
+   "ideal_top_state": "00000000000"
+  },
+  {
+   "target": "1hsg",
+   "arm": "monolithic_p1",
+   "run": 2,
+   "job_id": "dae33651ierc738lje1g",
+   "backend": "ibm_fez",
+   "last_update": "2026-09-05 10:44:08-04:00",
+   "submitted": "2026-09-05T11:13:27.220659",
+   "depth": 251,
+   "ops": {
+    "sx": 314,
+    "rz": 193,
+    "cz": 164,
+    "measure": 11,
+    "x": 4
+   },
+   "final_index_layout": [
+    147,
+    145,
+    146,
+    141,
+    142,
+    144,
+    122,
+    124,
+    143,
+    123,
+    136
+   ],
+   "shots": 4096,
+   "valid_shots": 1390,
+   "valid_frac": 0.33935546875,
+   "n_valid": 33,
+   "xstar_shots": 21,
+   "xstar_over_uniform": 0.4985611510791367,
+   "top_state": "00000000000",
+   "top_state_valid": false,
+   "top_state_count": 200,
+   "ideal_valid_frac": 0.5836306242796321,
+   "ideal_xstar_prob": 0.005102032547021763,
+   "ideal_xstar_over_uniform": 0.2884822472424773,
+   "ideal_top_state": "00000000000"
+  },
+  {
+   "target": "1hsg",
+   "arm": "monolithic_p1",
+   "run": 3,
+   "job_id": "dae336d1ierc738lje2g",
+   "backend": "ibm_fez",
+   "last_update": "2026-09-05 10:44:08-04:00",
+   "submitted": "2026-09-05T11:13:27.220659",
+   "depth": 251,
+   "ops": {
+    "sx": 314,
+    "rz": 193,
+    "cz": 164,
+    "measure": 11,
+    "x": 4
+   },
+   "final_index_layout": [
+    147,
+    145,
+    146,
+    141,
+    142,
+    144,
+    122,
+    124,
+    143,
+    123,
+    136
+   ],
+   "shots": 4096,
+   "valid_shots": 1462,
+   "valid_frac": 0.35693359375,
+   "n_valid": 33,
+   "xstar_shots": 21,
+   "xstar_over_uniform": 0.4740082079343365,
+   "top_state": "00000000000",
+   "top_state_valid": false,
+   "top_state_count": 178,
+   "ideal_valid_frac": 0.5836306242796321,
+   "ideal_xstar_prob": 0.005102032547021763,
+   "ideal_xstar_over_uniform": 0.2884822472424773,
+   "ideal_top_state": "00000000000"
+  },
+  {
+   "target": "1hsg",
+   "arm": "monolithic_p1",
+   "run": 4,
+   "job_id": "dae336l1ierc738lje40",
+   "backend": "ibm_fez",
+   "last_update": "2026-09-05 10:44:08-04:00",
+   "submitted": "2026-09-05T11:13:27.220659",
+   "depth": 251,
+   "ops": {
+    "sx": 314,
+    "rz": 193,
+    "cz": 164,
+    "measure": 11,
+    "x": 4
+   },
+   "final_index_layout": [
+    147,
+    145,
+    146,
+    141,
+    142,
+    144,
+    122,
+    124,
+    143,
+    123,
+    136
+   ],
+   "shots": 4096,
+   "valid_shots": 1408,
+   "valid_frac": 0.34375,
+   "n_valid": 33,
+   "xstar_shots": 17,
+   "xstar_over_uniform": 0.3984375,
+   "top_state": "00000000000",
+   "top_state_valid": false,
+   "top_state_count": 200,
+   "ideal_valid_frac": 0.5836306242796321,
+   "ideal_xstar_prob": 0.005102032547021763,
+   "ideal_xstar_over_uniform": 0.2884822472424773,
+   "ideal_top_state": "00000000000"
+  },
+  {
+   "target": "1hsg",
+   "arm": "monolithic_p1",
+   "run": 5,
+   "job_id": "dae336l1ierc738lje50",
+   "backend": "ibm_fez",
+   "last_update": "2026-09-05 10:44:08-04:00",
+   "submitted": "2026-09-05T11:13:27.220659",
+   "depth": 251,
+   "ops": {
+    "sx": 314,
+    "rz": 193,
+    "cz": 164,
+    "measure": 11,
+    "x": 4
+   },
+   "final_index_layout": [
+    147,
+    145,
+    146,
+    141,
+    142,
+    144,
+    122,
+    124,
+    143,
+    123,
+    136
+   ],
+   "shots": 4096,
+   "valid_shots": 1388,
+   "valid_frac": 0.3388671875,
+   "n_valid": 33,
+   "xstar_shots": 7,
+   "xstar_over_uniform": 0.16642651296829972,
+   "top_state": "00000000000",
+   "top_state_valid": false,
+   "top_state_count": 197,
+   "ideal_valid_frac": 0.5836306242796321,
+   "ideal_xstar_prob": 0.005102032547021763,
+   "ideal_xstar_over_uniform": 0.2884822472424773,
+   "ideal_top_state": "00000000000"
+  }
+ ],
+ "subproblems": [
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P76",
+   "run": 1,
+   "job_id": "dae332jdd5gc73d82bog",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:13.779547",
+   "depth": 107,
+   "ops": {
+    "sx": 63,
+    "rz": 56,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 2455,
+    "010": 114,
+    "100": 498
+   },
+   "pairs": {
+    "110": 243,
+    "101": 298,
+    "011": 286
+   },
+   "single_mass": 0.748779296875,
+   "pair_mass": 0.201904296875,
+   "empty": 0.03662109375,
+   "triple": 0.0126953125,
+   "top_state": "001",
+   "top_is_ground_state": true,
+   "ground_state_bits": "001",
+   "ideal_singles": {
+    "001": 0.7419415838955472,
+    "010": 0.06078996016876073,
+    "100": 0.06503665862993162
+   },
+   "ideal_pairs": {
+    "110": 0.02120449754744098,
+    "101": 0.053743251949600876,
+    "011": 0.048964486529305636
+   },
+   "bit_to_node": [
+    2,
+    3,
+    4
+   ],
+   "weights": [
+    0.9741636259999217,
+    0.530395762168669,
+    0.5379949244220308
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P76",
+   "run": 2,
+   "job_id": "dae332tnj4cs73aejung",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:13.779547",
+   "depth": 107,
+   "ops": {
+    "sx": 63,
+    "rz": 56,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 2483,
+    "010": 118,
+    "100": 471
+   },
+   "pairs": {
+    "110": 270,
+    "101": 282,
+    "011": 268
+   },
+   "single_mass": 0.75,
+   "pair_mass": 0.2001953125,
+   "empty": 0.034423828125,
+   "triple": 0.015380859375,
+   "top_state": "001",
+   "top_is_ground_state": true,
+   "ground_state_bits": "001",
+   "ideal_singles": {
+    "001": 0.7419415838955472,
+    "010": 0.06078996016876073,
+    "100": 0.06503665862993162
+   },
+   "ideal_pairs": {
+    "110": 0.02120449754744098,
+    "101": 0.053743251949600876,
+    "011": 0.048964486529305636
+   },
+   "bit_to_node": [
+    2,
+    3,
+    4
+   ],
+   "weights": [
+    0.9741636259999217,
+    0.530395762168669,
+    0.5379949244220308
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P76",
+   "run": 3,
+   "job_id": "dae3333dd5gc73d82bq0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:13.779547",
+   "depth": 107,
+   "ops": {
+    "sx": 63,
+    "rz": 56,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 2427,
+    "010": 142,
+    "100": 496
+   },
+   "pairs": {
+    "110": 241,
+    "101": 304,
+    "011": 263
+   },
+   "single_mass": 0.748291015625,
+   "pair_mass": 0.197265625,
+   "empty": 0.041259765625,
+   "triple": 0.01318359375,
+   "top_state": "001",
+   "top_is_ground_state": true,
+   "ground_state_bits": "001",
+   "ideal_singles": {
+    "001": 0.7419415838955472,
+    "010": 0.06078996016876073,
+    "100": 0.06503665862993162
+   },
+   "ideal_pairs": {
+    "110": 0.02120449754744098,
+    "101": 0.053743251949600876,
+    "011": 0.048964486529305636
+   },
+   "bit_to_node": [
+    2,
+    3,
+    4
+   ],
+   "weights": [
+    0.9741636259999217,
+    0.530395762168669,
+    0.5379949244220308
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P76",
+   "run": 4,
+   "job_id": "dae3335nj4cs73aejuo0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:13.779547",
+   "depth": 107,
+   "ops": {
+    "sx": 63,
+    "rz": 56,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 2438,
+    "010": 123,
+    "100": 508
+   },
+   "pairs": {
+    "110": 255,
+    "101": 281,
+    "011": 276
+   },
+   "single_mass": 0.749267578125,
+   "pair_mass": 0.1982421875,
+   "empty": 0.036376953125,
+   "triple": 0.01611328125,
+   "top_state": "001",
+   "top_is_ground_state": true,
+   "ground_state_bits": "001",
+   "ideal_singles": {
+    "001": 0.7419415838955472,
+    "010": 0.06078996016876073,
+    "100": 0.06503665862993162
+   },
+   "ideal_pairs": {
+    "110": 0.02120449754744098,
+    "101": 0.053743251949600876,
+    "011": 0.048964486529305636
+   },
+   "bit_to_node": [
+    2,
+    3,
+    4
+   ],
+   "weights": [
+    0.9741636259999217,
+    0.530395762168669,
+    0.5379949244220308
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P76",
+   "run": 5,
+   "job_id": "dae333e42tqs73au5q8g",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:13.779547",
+   "depth": 107,
+   "ops": {
+    "sx": 63,
+    "rz": 56,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 2497,
+    "010": 148,
+    "100": 507
+   },
+   "pairs": {
+    "110": 255,
+    "101": 239,
+    "011": 265
+   },
+   "single_mass": 0.76953125,
+   "pair_mass": 0.185302734375,
+   "empty": 0.03271484375,
+   "triple": 0.012451171875,
+   "top_state": "001",
+   "top_is_ground_state": true,
+   "ground_state_bits": "001",
+   "ideal_singles": {
+    "001": 0.7419415838955472,
+    "010": 0.06078996016876073,
+    "100": 0.06503665862993162
+   },
+   "ideal_pairs": {
+    "110": 0.02120449754744098,
+    "101": 0.053743251949600876,
+    "011": 0.048964486529305636
+   },
+   "bit_to_node": [
+    2,
+    3,
+    4
+   ],
+   "weights": [
+    0.9741636259999217,
+    0.530395762168669,
+    0.5379949244220308
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P79",
+   "run": 1,
+   "job_id": "dae333m42tqs73au5q90",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:18.381233",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 54,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 171,
+    "010": 1191,
+    "100": 1660
+   },
+   "pairs": {
+    "110": 258,
+    "101": 374,
+    "011": 244
+   },
+   "single_mass": 0.73779296875,
+   "pair_mass": 0.2138671875,
+   "empty": 0.029296875,
+   "triple": 0.01904296875,
+   "top_state": "100",
+   "top_is_ground_state": true,
+   "ground_state_bits": "100",
+   "ideal_singles": {
+    "001": 0.046231088609687485,
+    "010": 0.4218429618422097,
+    "100": 0.4745322727974676
+   },
+   "ideal_pairs": {
+    "110": 0.056864226643986895,
+    "101": 0.00014825365987948302,
+    "011": 0.0001959437738529875
+   },
+   "bit_to_node": [
+    5,
+    6,
+    7
+   ],
+   "weights": [
+    0.5987840790391894,
+    0.9528867400294212,
+    0.9817620439512926
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P79",
+   "run": 2,
+   "job_id": "dae333tnj4cs73aejuq0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:18.381233",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 54,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 181,
+    "010": 1140,
+    "100": 1643
+   },
+   "pairs": {
+    "110": 280,
+    "101": 363,
+    "011": 275
+   },
+   "single_mass": 0.7236328125,
+   "pair_mass": 0.22412109375,
+   "empty": 0.03125,
+   "triple": 0.02099609375,
+   "top_state": "100",
+   "top_is_ground_state": true,
+   "ground_state_bits": "100",
+   "ideal_singles": {
+    "001": 0.046231088609687485,
+    "010": 0.4218429618422097,
+    "100": 0.4745322727974676
+   },
+   "ideal_pairs": {
+    "110": 0.056864226643986895,
+    "101": 0.00014825365987948302,
+    "011": 0.0001959437738529875
+   },
+   "bit_to_node": [
+    5,
+    6,
+    7
+   ],
+   "weights": [
+    0.5987840790391894,
+    0.9528867400294212,
+    0.9817620439512926
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P79",
+   "run": 3,
+   "job_id": "dae3345nj4cs73aejur0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:18.381233",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 54,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 165,
+    "010": 1095,
+    "100": 1682
+   },
+   "pairs": {
+    "110": 294,
+    "101": 394,
+    "011": 258
+   },
+   "single_mass": 0.71826171875,
+   "pair_mass": 0.23095703125,
+   "empty": 0.027099609375,
+   "triple": 0.023681640625,
+   "top_state": "100",
+   "top_is_ground_state": true,
+   "ground_state_bits": "100",
+   "ideal_singles": {
+    "001": 0.046231088609687485,
+    "010": 0.4218429618422097,
+    "100": 0.4745322727974676
+   },
+   "ideal_pairs": {
+    "110": 0.056864226643986895,
+    "101": 0.00014825365987948302,
+    "011": 0.0001959437738529875
+   },
+   "bit_to_node": [
+    5,
+    6,
+    7
+   ],
+   "weights": [
+    0.5987840790391894,
+    0.9528867400294212,
+    0.9817620439512926
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P79",
+   "run": 4,
+   "job_id": "dae334e42tqs73au5qb0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:18.381233",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 54,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 192,
+    "010": 1113,
+    "100": 1749
+   },
+   "pairs": {
+    "110": 311,
+    "101": 326,
+    "011": 229
+   },
+   "single_mass": 0.74560546875,
+   "pair_mass": 0.21142578125,
+   "empty": 0.024169921875,
+   "triple": 0.018798828125,
+   "top_state": "100",
+   "top_is_ground_state": true,
+   "ground_state_bits": "100",
+   "ideal_singles": {
+    "001": 0.046231088609687485,
+    "010": 0.4218429618422097,
+    "100": 0.4745322727974676
+   },
+   "ideal_pairs": {
+    "110": 0.056864226643986895,
+    "101": 0.00014825365987948302,
+    "011": 0.0001959437738529875
+   },
+   "bit_to_node": [
+    5,
+    6,
+    7
+   ],
+   "weights": [
+    0.5987840790391894,
+    0.9528867400294212,
+    0.9817620439512926
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P79",
+   "run": 5,
+   "job_id": "dae334dnj4cs73aejut0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:18.381233",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 54,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 187,
+    "010": 1176,
+    "100": 1701
+   },
+   "pairs": {
+    "110": 285,
+    "101": 324,
+    "011": 243
+   },
+   "single_mass": 0.748046875,
+   "pair_mass": 0.2080078125,
+   "empty": 0.02685546875,
+   "triple": 0.01708984375,
+   "top_state": "100",
+   "top_is_ground_state": true,
+   "ground_state_bits": "100",
+   "ideal_singles": {
+    "001": 0.046231088609687485,
+    "010": 0.4218429618422097,
+    "100": 0.4745322727974676
+   },
+   "ideal_pairs": {
+    "110": 0.056864226643986895,
+    "101": 0.00014825365987948302,
+    "011": 0.0001959437738529875
+   },
+   "bit_to_node": [
+    5,
+    6,
+    7
+   ],
+   "weights": [
+    0.5987840790391894,
+    0.9528867400294212,
+    0.9817620439512926
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P85",
+   "run": 1,
+   "job_id": "dae334tnj4cs73aejutg",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:22.792265",
+   "depth": 107,
+   "ops": {
+    "sx": 62,
+    "rz": 53,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 73,
+    "010": 1745,
+    "100": 1248
+   },
+   "pairs": {
+    "110": 395,
+    "101": 191,
+    "011": 170
+   },
+   "single_mass": 0.74853515625,
+   "pair_mass": 0.1845703125,
+   "empty": 0.037353515625,
+   "triple": 0.029541015625,
+   "top_state": "010",
+   "top_is_ground_state": false,
+   "ground_state_bits": "100",
+   "ideal_singles": {
+    "001": 0.0029663344151422324,
+    "010": 0.44681110574931077,
+    "100": 0.451489072084388
+   },
+   "ideal_pairs": {
+    "110": 0.09203804673252332,
+    "101": 0.0016452793508235067,
+    "011": 0.003733085813197682
+   },
+   "bit_to_node": [
+    8,
+    9,
+    10
+   ],
+   "weights": [
+    0.5714292752807058,
+    0.9802432192944867,
+    1.0
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P85",
+   "run": 2,
+   "job_id": "dae334rdd5gc73d82c00",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:22.792265",
+   "depth": 107,
+   "ops": {
+    "sx": 62,
+    "rz": 53,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 71,
+    "010": 1681,
+    "100": 1201
+   },
+   "pairs": {
+    "110": 418,
+    "101": 227,
+    "011": 188
+   },
+   "single_mass": 0.720947265625,
+   "pair_mass": 0.203369140625,
+   "empty": 0.039306640625,
+   "triple": 0.036376953125,
+   "top_state": "010",
+   "top_is_ground_state": false,
+   "ground_state_bits": "100",
+   "ideal_singles": {
+    "001": 0.0029663344151422324,
+    "010": 0.44681110574931077,
+    "100": 0.451489072084388
+   },
+   "ideal_pairs": {
+    "110": 0.09203804673252332,
+    "101": 0.0016452793508235067,
+    "011": 0.003733085813197682
+   },
+   "bit_to_node": [
+    8,
+    9,
+    10
+   ],
+   "weights": [
+    0.5714292752807058,
+    0.9802432192944867,
+    1.0
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P85",
+   "run": 3,
+   "job_id": "dae33551ierc738ljdug",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:22.792265",
+   "depth": 107,
+   "ops": {
+    "sx": 62,
+    "rz": 53,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 77,
+    "010": 1838,
+    "100": 1170
+   },
+   "pairs": {
+    "110": 364,
+    "101": 214,
+    "011": 140
+   },
+   "single_mass": 0.753173828125,
+   "pair_mass": 0.17529296875,
+   "empty": 0.036376953125,
+   "triple": 0.03515625,
+   "top_state": "010",
+   "top_is_ground_state": false,
+   "ground_state_bits": "100",
+   "ideal_singles": {
+    "001": 0.0029663344151422324,
+    "010": 0.44681110574931077,
+    "100": 0.451489072084388
+   },
+   "ideal_pairs": {
+    "110": 0.09203804673252332,
+    "101": 0.0016452793508235067,
+    "011": 0.003733085813197682
+   },
+   "bit_to_node": [
+    8,
+    9,
+    10
+   ],
+   "weights": [
+    0.5714292752807058,
+    0.9802432192944867,
+    1.0
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P85",
+   "run": 4,
+   "job_id": "dae335bdd5gc73d82c2g",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:22.792265",
+   "depth": 107,
+   "ops": {
+    "sx": 62,
+    "rz": 53,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 66,
+    "010": 1761,
+    "100": 1224
+   },
+   "pairs": {
+    "110": 408,
+    "101": 208,
+    "011": 152
+   },
+   "single_mass": 0.744873046875,
+   "pair_mass": 0.1875,
+   "empty": 0.03515625,
+   "triple": 0.032470703125,
+   "top_state": "010",
+   "top_is_ground_state": false,
+   "ground_state_bits": "100",
+   "ideal_singles": {
+    "001": 0.0029663344151422324,
+    "010": 0.44681110574931077,
+    "100": 0.451489072084388
+   },
+   "ideal_pairs": {
+    "110": 0.09203804673252332,
+    "101": 0.0016452793508235067,
+    "011": 0.003733085813197682
+   },
+   "bit_to_node": [
+    8,
+    9,
+    10
+   ],
+   "weights": [
+    0.5714292752807058,
+    0.9802432192944867,
+    1.0
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P85",
+   "run": 5,
+   "job_id": "dae335l1ierc738lje00",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:22.792265",
+   "depth": 107,
+   "ops": {
+    "sx": 62,
+    "rz": 53,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ],
+   "shots": 4096,
+   "singles": {
+    "001": 84,
+    "010": 1788,
+    "100": 1260
+   },
+   "pairs": {
+    "110": 381,
+    "101": 177,
+    "011": 137
+   },
+   "single_mass": 0.7646484375,
+   "pair_mass": 0.169677734375,
+   "empty": 0.0341796875,
+   "triple": 0.031494140625,
+   "top_state": "010",
+   "top_is_ground_state": false,
+   "ground_state_bits": "100",
+   "ideal_singles": {
+    "001": 0.0029663344151422324,
+    "010": 0.44681110574931077,
+    "100": 0.451489072084388
+   },
+   "ideal_pairs": {
+    "110": 0.09203804673252332,
+    "101": 0.0016452793508235067,
+    "011": 0.003733085813197682
+   },
+   "bit_to_node": [
+    8,
+    9,
+    10
+   ],
+   "weights": [
+    0.5714292752807058,
+    0.9802432192944867,
+    1.0
+   ]
+  }
+ ],
+ "pending": []
+}

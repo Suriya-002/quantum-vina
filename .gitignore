@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+qpyenv/
+*_dryrun.json
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+.ipynb_checkpoints/
+Thumbs.db
+.DS_Store

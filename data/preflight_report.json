@@ -1,0 +1,113 @@
+{
+ "generated": "2026-10-10T12:13:54",
+ "fail": [],
+ "warn": [
+  "corrected_penalty_arm.json monolithic gamma = 0.3250, but the executed circuits used -0.4028 (40x40 grid): the file describes the unexecuted 30x30 point",
+  "five-run set ('size_1hsg', 'P139+P51+P52', 0.5) spans 2 calibrations: 3 Oct 14:26 UTC x3; 3 Oct 17:45 UTC x2",
+  "five-run sets spanning more than one calibration: 1 (the paper must name each)",
+  "open \\todo items: 1",
+  "title is still marked as a candidate awaiting approval"
+ ],
+ "values_to_patch": {
+  "unaccounted_july_ids": {},
+  "1hsg_corrected_P139_modes": {
+   "per_run": [
+    "100",
+    "100",
+    "100",
+    "100",
+    "100"
+   ],
+   "top": "100",
+   "node": 3,
+   "w_top": 0.9459042193820457,
+   "ground_state": "100",
+   "w_gs": 0.9459042193820457,
+   "ideal_singles": {
+    "001": 0.3100721861008642,
+    "010": 0.1010140405180902,
+    "100": 0.5619241997437002
+   }
+  },
+  "1hsg_corrected_P51_modes": {
+   "per_run": [
+    "010",
+    "010",
+    "100",
+    "100",
+    "010"
+   ],
+   "top": "010",
+   "node": 6,
+   "w_top": 0.9227203563934254,
+   "ground_state": "010",
+   "w_gs": 0.9227203563934254,
+   "ideal_singles": {
+    "001": 0.15517646694700216,
+    "010": 0.39420584573599654,
+    "100": 0.3942058356869797
+   }
+  },
+  "1hsg_corrected_P52_modes": {
+   "per_run": [
+    "010",
+    "010",
+    "010",
+    "010",
+    "010"
+   ],
+   "top": "010",
+   "node": 9,
+   "w_top": 0.9350851610570823,
+   "ground_state": "100",
+   "w_gs": 1.0,
+   "ideal_singles": {
+    "001": 0.0008733824745324288,
+    "010": 0.4565427464058743,
+    "100": 0.4650423589976327
+   }
+  },
+  "P51_mode": {
+   "bits": "010",
+   "runs": 3,
+   "node": 6,
+   "per_run": [
+    "010",
+    "010",
+    "100",
+    "100",
+    "010"
+   ]
+  },
+  "hsg_eight_node_control_modes": {
+   "ideal_mode": "00000000",
+   "hardware_modes": [
+    "00010001",
+    "10000000",
+    "00010001",
+    "00010001",
+    "00010001"
+   ],
+   "noisy_sim_mode_valid": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  "scatter_ratios": {
+   "July 2BM2 monolithic": 4.12016704110862,
+   "July 1HSG monolithic": 1.6577120430273988,
+   "September 2BM2 size chain": 1.2837562680332715,
+   "October 1HSG size chain": 3.6394464009061385,
+   "sweep (pair mass)": 2.0454690671336206,
+   "corrected 2bm2 monolithic": 2.0979783625202457,
+   "corrected 1hsg monolithic": 1.4158910066171375,
+   "corrected 1HSG subproblems": 4.4210141883598535
+  },
+  "open_todos": [
+   "line 643: GitHub repository URL"
+  ]
+ }
+}

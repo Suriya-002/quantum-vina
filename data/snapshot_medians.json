@@ -1,0 +1,137 @@
+{
+ "2BM2 originals mono": {
+  "backend": "ibm_marrakesh",
+  "representative_job": "d95ti2otcv6s73dj4f7g",
+  "queried_at_running": "2026-07-07T03:40:49.833773Z",
+  "properties_last_update": "2026-07-06 19:57:28-07:00",
+  "calibration_utc": "7 Jul 02:57",
+  "n_qubits_with_T2": 156,
+  "median_cz_error": 0.0029329168180212417,
+  "median_T1_us": 158.1414534441066,
+  "median_T2_us": 76.15612333325998,
+  "median_readout_error": 0.01171875
+ },
+ "2BM2 originals subs": {
+  "backend": "ibm_marrakesh",
+  "representative_job": "d95u74d2su3c739gap90",
+  "queried_at_running": "2026-07-07T04:40:14.506393Z",
+  "properties_last_update": "2026-07-06 19:57:28-07:00",
+  "calibration_utc": "7 Jul 02:57",
+  "n_qubits_with_T2": 156,
+  "median_cz_error": 0.0029329168180212417,
+  "median_T1_us": 158.1414534441066,
+  "median_T2_us": 76.15612333325998,
+  "median_readout_error": 0.01171875
+ },
+ "1HSG originals mono": {
+  "backend": "ibm_fez",
+  "representative_job": "d96imekqp3as739qlehg",
+  "queried_at_running": "2026-07-07T16:37:16.76488Z",
+  "properties_last_update": "2026-07-07 09:01:10-07:00",
+  "calibration_utc": "7 Jul 16:01",
+  "n_qubits_with_T2": 155,
+  "median_cz_error": 0.0028271271843184204,
+  "median_T1_us": 135.78177603155424,
+  "median_T2_us": 98.98478082671171,
+  "median_readout_error": 0.00897216796875
+ },
+ "1HSG originals subs": {
+  "backend": "ibm_fez",
+  "representative_job": "d96imm52su3c739h0ju0",
+  "queried_at_running": "2026-07-07T16:59:55.952453Z",
+  "properties_last_update": "2026-07-07 09:40:24-07:00",
+  "calibration_utc": "7 Jul 16:40",
+  "n_qubits_with_T2": 155,
+  "median_cz_error": 0.0028271271843184204,
+  "median_T1_us": 135.78177603155424,
+  "median_T2_us": 98.98478082671171,
+  "median_readout_error": 0.00897216796875
+ },
+ "corrected arm Marrakesh": {
+  "backend": "ibm_marrakesh",
+  "representative_job": "dae331bdd5gc73d82bm0",
+  "queried_at_running": "2026-09-05T15:13:10.183226Z",
+  "properties_last_update": "2026-09-05 06:59:42-07:00",
+  "calibration_utc": "5 Sep 13:59",
+  "n_qubits_with_T2": 156,
+  "median_cz_error": 0.0034087422359924957,
+  "median_T1_us": 157.06061541156367,
+  "median_T2_us": 69.53539279261426,
+  "median_readout_error": 0.01177978515625
+ },
+ "corrected arm Fez": {
+  "backend": "ibm_fez",
+  "representative_job": "dae335tnj4cs73aejv20",
+  "queried_at_running": "2026-09-05T15:13:28.738478Z",
+  "properties_last_update": "2026-09-05 07:44:08-07:00",
+  "calibration_utc": "5 Sep 14:44",
+  "n_qubits_with_T2": 155,
+  "median_cz_error": 0.0027854934483941968,
+  "median_T1_us": 120.32763081634525,
+  "median_T2_us": 85.42411393556763,
+  "median_readout_error": 0.0106201171875
+ },
+ "sweep + size test": {
+  "backend": "ibm_marrakesh",
+  "representative_job": "dae5vc51ierc738lmvg0",
+  "queried_at_running": "2026-09-05T18:30:10.002325Z",
+  "properties_last_update": "2026-09-05 10:58:59-07:00",
+  "calibration_utc": "5 Sep 17:58",
+  "n_qubits_with_T2": 156,
+  "median_cz_error": 0.0034087422359924957,
+  "median_T1_us": 157.06061541156367,
+  "median_T2_us": 69.53539279261426,
+  "median_readout_error": 0.01202392578125
+ },
+ "1HSG corrected subs": {
+  "backend": "ibm_fez",
+  "representative_job": "daeb1ulnj4cs73aetvg0",
+  "queried_at_running": "2026-09-06T00:17:04.336681Z",
+  "properties_last_update": "2026-09-05 12:28:43-07:00",
+  "calibration_utc": "5 Sep 19:28",
+  "n_qubits_with_T2": 155,
+  "median_cz_error": 0.0027854934483941968,
+  "median_T1_us": 120.32763081634525,
+  "median_T2_us": 85.42411393556763,
+  "median_readout_error": 0.0106201171875,
+  "n_jobs_on_this_calibration": 15,
+  "executed_utc": [
+   "2026-09-06T00:17:04.336681Z",
+   "2026-09-06T00:18:02.796054Z"
+  ]
+ },
+ "1HSG size test (cal. 1)": {
+  "backend": "ibm_fez",
+  "representative_job": "daeb3qjdd5gc73d8cerg",
+  "queried_at_running": "2026-10-03T15:14:46.358156Z",
+  "properties_last_update": "2026-10-03 07:26:40-07:00",
+  "calibration_utc": "3 Oct 14:26",
+  "n_qubits_with_T2": 155,
+  "median_cz_error": 0.0027117621597654573,
+  "median_T1_us": 131.79871248004062,
+  "median_T2_us": 103.80947108011871,
+  "median_readout_error": 0.01019287109375,
+  "n_jobs_on_this_calibration": 43,
+  "executed_utc": [
+   "2026-10-03T15:14:46.358156Z",
+   "2026-10-03T15:17:40.281671Z"
+  ]
+ },
+ "1HSG size test (cal. 2)": {
+  "backend": "ibm_fez",
+  "representative_job": "daeb42bdd5gc73d8cfi0",
+  "queried_at_running": "2026-10-03T18:31:57.083656Z",
+  "properties_last_update": "2026-10-03 10:45:12-07:00",
+  "calibration_utc": "3 Oct 17:45",
+  "n_qubits_with_T2": 155,
+  "median_cz_error": 0.0027117621597654573,
+  "median_T1_us": 131.79871248004062,
+  "median_T2_us": 103.80947108011871,
+  "median_readout_error": 0.01025390625,
+  "n_jobs_on_this_calibration": 37,
+  "executed_utc": [
+   "2026-10-03T18:31:57.083656Z",
+   "2026-10-03T18:33:10.332524Z"
+  ]
+ }
+}

@@ -1,0 +1,2695 @@
+{
+ "built": "2026-09-05T14:16:22.951604",
+ "target": "2bm2",
+ "backend": "ibm_marrakesh",
+ "dry_run": false,
+ "w_max_global": 1.0,
+ "SHOTS": 4096,
+ "N_RUNS": 5,
+ "seed_transpiler": 2026,
+ "bit_convention": "subproblem bit k <-> node group[k]",
+ "cases": [
+  {
+   "group": "P76",
+   "nodes": [
+    2,
+    3,
+    4
+   ],
+   "weights": [
+    0.9741636259999217,
+    0.530395762168669,
+    0.5379949244220308
+   ],
+   "penalty_factor": 0.5,
+   "P": 0.5,
+   "p": 1,
+   "gammas": [
+    -2.0945668557107813
+   ],
+   "betas": [
+    0.4155016523620969
+   ],
+   "expected_E": -0.8527064737351074,
+   "ground_state_bits": "101",
+   "ground_state_valid": false,
+   "ideal_singles": {
+    "001": 0.14730499550399553,
+    "010": 0.05539410909579294,
+    "100": 0.056192054853085274
+   },
+   "ideal_pairs": {
+    "110": 0.14659585034508094,
+    "101": 0.2690932136513708,
+    "011": 0.26549408078523473
+   },
+   "ideal_single_mass": 0.2588911594528737,
+   "ideal_pair_mass": 0.6811831447816865,
+   "ideal_top_state": "101"
+  },
+  {
+   "group": "P76",
+   "nodes": [
+    2,
+    3,
+    4
+   ],
+   "weights": [
+    0.9741636259999217,
+    0.530395762168669,
+    0.5379949244220308
+   ],
+   "penalty_factor": 0.5,
+   "P": 0.5,
+   "p": 2,
+   "gammas": [
+    1.702735352749775,
+    2.94954625931596
+   ],
+   "betas": [
+    -0.6890075763697298,
+    -0.4351428442508278
+   ],
+   "expected_E": -0.9443768136733433,
+   "ground_state_bits": "101",
+   "ground_state_valid": false,
+   "ideal_singles": {
+    "001": 0.30603825343774954,
+    "010": 0.003861351543888344,
+    "100": 0.0037667235468385094
+   },
+   "ideal_pairs": {
+    "110": 0.00753597667281895,
+    "101": 0.30378505234571335,
+    "011": 0.2893879741556043
+   },
+   "ideal_single_mass": 0.31366632852847637,
+   "ideal_pair_mass": 0.6007090031741367,
+   "ideal_top_state": "001"
+  },
+  {
+   "group": "P76",
+   "nodes": [
+    2,
+    3,
+    4
+   ],
+   "weights": [
+    0.9741636259999217,
+    0.530395762168669,
+    0.5379949244220308
+   ],
+   "penalty_factor": 0.5,
+   "P": 0.5,
+   "p": 3,
+   "gammas": [
+    1.4451427100529841,
+    -3.615782815950758,
+    2.064010030573159
+   ],
+   "betas": [
+    1.6877099469411259,
+    -0.5475392127292389,
+    0.973351067187204
+   ],
+   "expected_E": -1.0030363701373608,
+   "ground_state_bits": "101",
+   "ground_state_valid": false,
+   "ideal_singles": {
+    "001": 0.11879062165028104,
+    "010": 0.00046530167172345946,
+    "100": 0.00040878909139450113
+   },
+   "ideal_pairs": {
+    "110": 0.0013118457749048346,
+    "101": 0.4475358962990581,
+    "011": 0.4311029326111291
+   },
+   "ideal_single_mass": 0.11966471241339899,
+   "ideal_pair_mass": 0.879950674685092,
+   "ideal_top_state": "101"
+  },
+  {
+   "group": "P76",
+   "nodes": [
+    2,
+    3,
+    4
+   ],
+   "weights": [
+    0.9741636259999217,
+    0.530395762168669,
+    0.5379949244220308
+   ],
+   "penalty_factor": 1.1,
+   "P": 1.1,
+   "p": 1,
+   "gammas": [
+    0.9935264998637494
+   ],
+   "betas": [
+    -0.3586848881640405
+   ],
+   "expected_E": -0.5564498449772588,
+   "ground_state_bits": "001",
+   "ground_state_valid": true,
+   "ideal_singles": {
+    "001": 0.28090548283810696,
+    "010": 0.2098655769833218,
+    "100": 0.21079956316752055
+   },
+   "ideal_pairs": {
+    "110": 0.06202605350930631,
+    "101": 0.08972052559236718,
+    "011": 0.08912173472549942
+   },
+   "ideal_single_mass": 0.7015706229889493,
+   "ideal_pair_mass": 0.24086831382717291,
+   "ideal_top_state": "001"
+  },
+  {
+   "group": "P76",
+   "nodes": [
+    2,
+    3,
+    4
+   ],
+   "weights": [
+    0.9741636259999217,
+    0.530395762168669,
+    0.5379949244220308
+   ],
+   "penalty_factor": 1.1,
+   "P": 1.1,
+   "p": 2,
+   "gammas": [
+    -1.857238761519432,
+    0.9311654831561086
+   ],
+   "betas": [
+    0.9973426926511804,
+    -0.6412972213105088
+   ],
+   "expected_E": -0.7177476415320282,
+   "ground_state_bits": "001",
+   "ground_state_valid": true,
+   "ideal_singles": {
+    "001": 0.539867284143713,
+    "010": 0.17867328347707556,
+    "100": 0.1816412892207008
+   },
+   "ideal_pairs": {
+    "110": 0.07146327571578437,
+    "101": 0.004097550377610303,
+    "011": 0.004991301523576517
+   },
+   "ideal_single_mass": 0.9001818568414893,
+   "ideal_pair_mass": 0.0805521276169712,
+   "ideal_top_state": "001"
+  },
+  {
+   "group": "P76",
+   "nodes": [
+    2,
+    3,
+    4
+   ],
+   "weights": [
+    0.9741636259999217,
+    0.530395762168669,
+    0.5379949244220308
+   ],
+   "penalty_factor": 1.1,
+   "P": 1.1,
+   "p": 3,
+   "gammas": [
+    -2.599211821907278,
+    1.600130407759321,
+    -2.5112257185646474
+   ],
+   "betas": [
+    0.43819687801032625,
+    0.43389478236134466,
+    0.7326849873705922
+   ],
+   "expected_E": -0.8311773487061078,
+   "ground_state_bits": "001",
+   "ground_state_valid": true,
+   "ideal_singles": {
+    "001": 0.70538818627713,
+    "010": 0.1150472689836813,
+    "100": 0.11946133969879734
+   },
+   "ideal_pairs": {
+    "110": 0.004333066574366337,
+    "101": 0.024813868314865036,
+    "011": 0.02268892950165804
+   },
+   "ideal_single_mass": 0.9398967949596087,
+   "ideal_pair_mass": 0.05183586439088941,
+   "ideal_top_state": "001"
+  },
+  {
+   "group": "P79",
+   "nodes": [
+    5,
+    6,
+    7
+   ],
+   "weights": [
+    0.5987840790391894,
+    0.9528867400294212,
+    0.9817620439512926
+   ],
+   "penalty_factor": 0.5,
+   "P": 0.5,
+   "p": 1,
+   "gammas": [
+    1.8647264776107997
+   ],
+   "betas": [
+    -0.4539934618381747
+   ],
+   "expected_E": -1.1529935471059989,
+   "ground_state_bits": "110",
+   "ground_state_valid": false,
+   "ideal_singles": {
+    "001": 0.013845224367718515,
+    "010": 0.038577520838078645,
+    "100": 0.04250577099904875
+   },
+   "ideal_pairs": {
+    "110": 0.34292308154335716,
+    "101": 0.1901228237882789,
+    "011": 0.18315116283782693
+   },
+   "ideal_single_mass": 0.09492851620484591,
+   "ideal_pair_mass": 0.716197068169463,
+   "ideal_top_state": "110"
+  },
+  {
+   "group": "P79",
+   "nodes": [
+    5,
+    6,
+    7
+   ],
+   "weights": [
+    0.5987840790391894,
+    0.9528867400294212,
+    0.9817620439512926
+   ],
+   "penalty_factor": 0.5,
+   "P": 0.5,
+   "p": 2,
+   "gammas": [
+    1.4910033872673978,
+    3.506829604389361
+   ],
+   "betas": [
+    -0.572864042186204,
+    -0.3803367997108987
+   ],
+   "expected_E": -1.2590588597560484,
+   "ground_state_bits": "110",
+   "ground_state_valid": false,
+   "ideal_singles": {
+    "001": 0.012154582600640795,
+    "010": 0.0008728967123040597,
+    "100": 0.0031718253213794644
+   },
+   "ideal_pairs": {
+    "110": 0.5899919523137523,
+    "101": 0.07838837396707941,
+    "011": 0.06602126652259797
+   },
+   "ideal_single_mass": 0.01619930463432432,
+   "ideal_pair_mass": 0.7344015928034298,
+   "ideal_top_state": "110"
+  },
+  {
+   "group": "P79",
+   "nodes": [
+    5,
+    6,
+    7
+   ],
+   "weights": [
+    0.5987840790391894,
+    0.9528867400294212,
+    0.9817620439512926
+   ],
+   "penalty_factor": 0.5,
+   "P": 0.5,
+   "p": 3,
+   "gammas": [
+    -1.6186903161133832,
+    -2.4263377627649114,
+    -3.9292931293920343
+   ],
+   "betas": [
+    0.5667033363356294,
+    0.45645816159627056,
+    0.36409707280761966
+   ],
+   "expected_E": -1.3684613965772807,
+   "ground_state_bits": "110",
+   "ground_state_valid": false,
+   "ideal_singles": {
+    "001": 0.0035055996784954424,
+    "010": 0.015422168339002463,
+    "100": 0.01550512608992517
+   },
+   "ideal_pairs": {
+    "110": 0.8397710968944607,
+    "101": 0.04080291131327098,
+    "011": 0.02344549121661367
+   },
+   "ideal_single_mass": 0.034432894107423076,
+   "ideal_pair_mass": 0.9040194994243453,
+   "ideal_top_state": "110"
+  },
+  {
+   "group": "P79",
+   "nodes": [
+    5,
+    6,
+    7
+   ],
+   "weights": [
+    0.5987840790391894,
+    0.9528867400294212,
+    0.9817620439512926
+   ],
+   "penalty_factor": 1.1,
+   "P": 1.1,
+   "p": 1,
+   "gammas": [
+    1.0597593179099085
+   ],
+   "betas": [
+    -0.3336960707894864
+   ],
+   "expected_E": -0.756204273796726,
+   "ground_state_bits": "100",
+   "ground_state_valid": true,
+   "ideal_singles": {
+    "001": 0.18370632817483482,
+    "010": 0.22792374387241157,
+    "100": 0.23234826610008502
+   },
+   "ideal_pairs": {
+    "110": 0.13332538465310106,
+    "101": 0.10177023007671897,
+    "011": 0.0996591705212345
+   },
+   "ideal_single_mass": 0.6439783381473314,
+   "ideal_pair_mass": 0.33475478525105457,
+   "ideal_top_state": "100"
+  },
+  {
+   "group": "P79",
+   "nodes": [
+    5,
+    6,
+    7
+   ],
+   "weights": [
+    0.5987840790391894,
+    0.9528867400294212,
+    0.9817620439512926
+   ],
+   "penalty_factor": 1.1,
+   "P": 1.1,
+   "p": 2,
+   "gammas": [
+    2.412947300906052,
+    -1.0645672247064013
+   ],
+   "betas": [
+    -1.0802467136041753,
+    0.7932742313711719
+   ],
+   "expected_E": -0.8903548272072224,
+   "ground_state_bits": "100",
+   "ground_state_valid": true,
+   "ideal_singles": {
+    "001": 0.1406996136651309,
+    "010": 0.36457378640245447,
+    "100": 0.39968350618488785
+   },
+   "ideal_pairs": {
+    "110": 0.061043936050360244,
+    "101": 0.015083288164420889,
+    "011": 0.018387858413933433
+   },
+   "ideal_single_mass": 0.9049569062524732,
+   "ideal_pair_mass": 0.09451508262871457,
+   "ideal_top_state": "100"
+  },
+  {
+   "group": "P79",
+   "nodes": [
+    5,
+    6,
+    7
+   ],
+   "weights": [
+    0.5987840790391894,
+    0.9528867400294212,
+    0.9817620439512926
+   ],
+   "penalty_factor": 1.1,
+   "P": 1.1,
+   "p": 3,
+   "gammas": [
+    -1.6699512394788023,
+    2.702510127671653,
+    -1.1325305855736982
+   ],
+   "betas": [
+    -1.7179030260304045,
+    0.490508703043113,
+    -0.9275905805014814
+   ],
+   "expected_E": -0.9515389124468016,
+   "ground_state_bits": "100",
+   "ground_state_valid": true,
+   "ideal_singles": {
+    "001": 0.022272495713098566,
+    "010": 0.4305157049127705,
+    "100": 0.4933956816305843
+   },
+   "ideal_pairs": {
+    "110": 0.0508994281868915,
+    "101": 0.001298893395915197,
+    "011": 0.0013864857848615464
+   },
+   "ideal_single_mass": 0.9461838822564534,
+   "ideal_pair_mass": 0.05358480736766824,
+   "ideal_top_state": "100"
+  },
+  {
+   "group": "P85",
+   "nodes": [
+    8,
+    9,
+    10
+   ],
+   "weights": [
+    0.5714292752807058,
+    0.9802432192944867,
+    1.0
+   ],
+   "penalty_factor": 0.5,
+   "P": 0.5,
+   "p": 1,
+   "gammas": [
+    1.8591666086365028
+   ],
+   "betas": [
+    -0.4699073806127176
+   ],
+   "expected_E": -1.1792846573793823,
+   "ground_state_bits": "110",
+   "ground_state_valid": false,
+   "ideal_singles": {
+    "001": 0.010196191510277678,
+    "010": 0.036760474594774405,
+    "100": 0.03955999336608413
+   },
+   "ideal_pairs": {
+    "110": 0.36094846211649273,
+    "101": 0.17896013708048925,
+    "011": 0.17449868226229798
+   },
+   "ideal_single_mass": 0.08651665947113621,
+   "ideal_pair_mass": 0.7144072814592799,
+   "ideal_top_state": "110"
+  },
+  {
+   "group": "P85",
+   "nodes": [
+    8,
+    9,
+    10
+   ],
+   "weights": [
+    0.5714292752807058,
+    0.9802432192944867,
+    1.0
+   ],
+   "penalty_factor": 0.5,
+   "P": 0.5,
+   "p": 2,
+   "gammas": [
+    -1.546744408706792,
+    -3.430360611337985
+   ],
+   "betas": [
+    0.62041654843757,
+    0.4326679922032671
+   ],
+   "expected_E": -1.3133023038954434,
+   "ground_state_bits": "110",
+   "ground_state_valid": false,
+   "ideal_singles": {
+    "001": 0.009175518594926298,
+    "010": 0.00381476573132706,
+    "100": 0.004980300562779199
+   },
+   "ideal_pairs": {
+    "110": 0.6662929523471588,
+    "101": 0.042810042802300545,
+    "011": 0.03531981996849404
+   },
+   "ideal_single_mass": 0.017970584889032557,
+   "ideal_pair_mass": 0.7444228151179533,
+   "ideal_top_state": "110"
+  },
+  {
+   "group": "P85",
+   "nodes": [
+    8,
+    9,
+    10
+   ],
+   "weights": [
+    0.5714292752807058,
+    0.9802432192944867,
+    1.0
+   ],
+   "penalty_factor": 0.5,
+   "P": 0.5,
+   "p": 3,
+   "gammas": [
+    -1.4957526392103968,
+    -2.321066980155377,
+    -3.6540683324129812
+   ],
+   "betas": [
+    0.5900964182014045,
+    0.4631545877305417,
+    0.3476710177212443
+   ],
+   "expected_E": -1.4174679673113804,
+   "ground_state_bits": "110",
+   "ground_state_valid": false,
+   "ideal_singles": {
+    "001": 0.0028503590275740847,
+    "010": 0.014388889955316985,
+    "100": 0.01361048138178378
+   },
+   "ideal_pairs": {
+    "110": 0.8613910062700154,
+    "101": 0.029399481772685605,
+    "011": 0.020350562770254446
+   },
+   "ideal_single_mass": 0.03084973036467485,
+   "ideal_pair_mass": 0.9111410508129555,
+   "ideal_top_state": "110"
+  },
+  {
+   "group": "P85",
+   "nodes": [
+    8,
+    9,
+    10
+   ],
+   "weights": [
+    0.5714292752807058,
+    0.9802432192944867,
+    1.0
+   ],
+   "penalty_factor": 1.1,
+   "P": 1.1,
+   "p": 1,
+   "gammas": [
+    1.0590495285963148
+   ],
+   "betas": [
+    -0.33681061097111265
+   ],
+   "expected_E": -0.7699127919630124,
+   "ground_state_bits": "100",
+   "ground_state_valid": true,
+   "ideal_singles": {
+    "001": 0.17888403734727293,
+    "010": 0.22964466181595833,
+    "100": 0.2327290425423268
+   },
+   "ideal_pairs": {
+    "110": 0.13804048828686535,
+    "101": 0.1008093669094888,
+    "011": 0.09937324727879428
+   },
+   "ideal_single_mass": 0.641257741705558,
+   "ideal_pair_mass": 0.3382231024751484,
+   "ideal_top_state": "100"
+  },
+  {
+   "group": "P85",
+   "nodes": [
+    8,
+    9,
+    10
+   ],
+   "weights": [
+    0.5714292752807058,
+    0.9802432192944867,
+    1.0
+   ],
+   "penalty_factor": 1.1,
+   "P": 1.1,
+   "p": 2,
+   "gammas": [
+    -2.422642433289502,
+    1.0619364630773542
+   ],
+   "betas": [
+    1.1002088865310231,
+    -0.8034080149873299
+   ],
+   "expected_E": -0.9044788311742873,
+   "ground_state_bits": "100",
+   "ground_state_valid": true,
+   "ideal_singles": {
+    "001": 0.12447006186765451,
+    "010": 0.3628870590860968,
+    "100": 0.3868770308843875
+   },
+   "ideal_pairs": {
+    "110": 0.08048920966909354,
+    "101": 0.02107546248597744,
+    "011": 0.023188726816815594
+   },
+   "ideal_single_mass": 0.8742341518381389,
+   "ideal_pair_mass": 0.12475339897188657,
+   "ideal_top_state": "100"
+  },
+  {
+   "group": "P85",
+   "nodes": [
+    8,
+    9,
+    10
+   ],
+   "weights": [
+    0.5714292752807058,
+    0.9802432192944867,
+    1.0
+   ],
+   "penalty_factor": 1.1,
+   "P": 1.1,
+   "p": 3,
+   "gammas": [
+    2.6999808528143507,
+    -3.6239926177659703,
+    2.126396709652794
+   ],
+   "betas": [
+    -0.7252539884661022,
+    1.5285777266076166,
+    0.7259365322762495
+   ],
+   "expected_E": -0.976154921252757,
+   "ground_state_bits": "100",
+   "ground_state_valid": true,
+   "ideal_singles": {
+    "001": 0.0018184222884990613,
+    "010": 0.44790384347263756,
+    "100": 0.4528776698595542
+   },
+   "ideal_pairs": {
+    "110": 0.09273262905067532,
+    "101": 0.00107967980151035,
+    "011": 0.0027355902585589737
+   },
+   "ideal_single_mass": 0.9025999356206909,
+   "ideal_pair_mass": 0.09654789911074464,
+   "ideal_top_state": "100"
+  }
+ ],
+ "jobs": [
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 1,
+   "job_id": "dae5vc51ierc738lmvg0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:07.309058",
+   "depth": 36,
+   "ops": {
+    "sx": 20,
+    "rz": 19,
+    "cz": 9,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 2,
+   "job_id": "dae5vc642tqs73au9c40",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:07.309058",
+   "depth": 36,
+   "ops": {
+    "sx": 20,
+    "rz": 19,
+    "cz": 9,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 3,
+   "job_id": "dae5vcdnj4cs73aengvg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:07.309058",
+   "depth": 36,
+   "ops": {
+    "sx": 20,
+    "rz": 19,
+    "cz": 9,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 4,
+   "job_id": "dae5vcjdd5gc73d85tjg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:07.309058",
+   "depth": 36,
+   "ops": {
+    "sx": 20,
+    "rz": 19,
+    "cz": 9,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 5,
+   "job_id": "dae5vcrdd5gc73d85tkg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:07.309058",
+   "depth": 36,
+   "ops": {
+    "sx": 20,
+    "rz": 19,
+    "cz": 9,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 1,
+   "job_id": "dae5vcu42tqs73au9c60",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:11.167260",
+   "depth": 70,
+   "ops": {
+    "sx": 39,
+    "rz": 35,
+    "cz": 18,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 2,
+   "job_id": "dae5vd642tqs73au9c6g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:11.167260",
+   "depth": 70,
+   "ops": {
+    "sx": 39,
+    "rz": 35,
+    "cz": 18,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 3,
+   "job_id": "dae5vde42tqs73au9c7g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:11.167260",
+   "depth": 70,
+   "ops": {
+    "sx": 39,
+    "rz": 35,
+    "cz": 18,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 4,
+   "job_id": "dae5vdd1ierc738lmvj0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:11.167260",
+   "depth": 70,
+   "ops": {
+    "sx": 39,
+    "rz": 35,
+    "cz": 18,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 5,
+   "job_id": "dae5vdl1ierc738lmvjg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:11.167260",
+   "depth": 70,
+   "ops": {
+    "sx": 39,
+    "rz": 35,
+    "cz": 18,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 1,
+   "job_id": "dae5vdt1ierc738lmvk0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:14.581518",
+   "depth": 105,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 2,
+   "job_id": "dae5vdrdd5gc73d85tng",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:14.581518",
+   "depth": 105,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 3,
+   "job_id": "dae5ve5nj4cs73aenh40",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:14.581518",
+   "depth": 105,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 4,
+   "job_id": "dae5ve5nj4cs73aenh50",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:14.581518",
+   "depth": 105,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 5,
+   "job_id": "dae5vebdd5gc73d85tog",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:14.581518",
+   "depth": 105,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 1,
+   "job_id": "dae5vem42tqs73au9cag",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:17.714201",
+   "depth": 37,
+   "ops": {
+    "sx": 21,
+    "rz": 19,
+    "cz": 9,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 2,
+   "job_id": "dae5velnj4cs73aenh6g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:17.714201",
+   "depth": 37,
+   "ops": {
+    "sx": 21,
+    "rz": 19,
+    "cz": 9,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 3,
+   "job_id": "dae5vetnj4cs73aenh7g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:17.714201",
+   "depth": 37,
+   "ops": {
+    "sx": 21,
+    "rz": 19,
+    "cz": 9,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 4,
+   "job_id": "dae5vetnj4cs73aenh80",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:17.714201",
+   "depth": 37,
+   "ops": {
+    "sx": 21,
+    "rz": 19,
+    "cz": 9,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 5,
+   "job_id": "dae5vf51ierc738lmvn0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:17.714201",
+   "depth": 37,
+   "ops": {
+    "sx": 21,
+    "rz": 19,
+    "cz": 9,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 1,
+   "job_id": "dae5vfbdd5gc73d85tqg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:20.733200",
+   "depth": 68,
+   "ops": {
+    "sx": 41,
+    "rz": 38,
+    "cz": 18,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 2,
+   "job_id": "dae5vfe42tqs73au9cdg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:20.733200",
+   "depth": 68,
+   "ops": {
+    "sx": 41,
+    "rz": 38,
+    "cz": 18,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 3,
+   "job_id": "dae5vflnj4cs73aenh9g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:20.733200",
+   "depth": 68,
+   "ops": {
+    "sx": 41,
+    "rz": 38,
+    "cz": 18,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 4,
+   "job_id": "dae5vfrdd5gc73d85ts0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:20.733200",
+   "depth": 68,
+   "ops": {
+    "sx": 41,
+    "rz": 38,
+    "cz": 18,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 5,
+   "job_id": "dae5vfu42tqs73au9cfg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:20.733200",
+   "depth": 68,
+   "ops": {
+    "sx": 41,
+    "rz": 38,
+    "cz": 18,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 1,
+   "job_id": "dae5vg642tqs73au9cg0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:23.985360",
+   "depth": 105,
+   "ops": {
+    "sx": 62,
+    "rz": 51,
+    "cz": 30,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 2,
+   "job_id": "dae5vgdnj4cs73aenhag",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:23.985360",
+   "depth": 105,
+   "ops": {
+    "sx": 62,
+    "rz": 51,
+    "cz": 30,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 3,
+   "job_id": "dae5vgbdd5gc73d85tug",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:23.985360",
+   "depth": 105,
+   "ops": {
+    "sx": 62,
+    "rz": 51,
+    "cz": 30,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 4,
+   "job_id": "dae5vgjdd5gc73d85tv0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:23.985360",
+   "depth": 105,
+   "ops": {
+    "sx": 62,
+    "rz": 51,
+    "cz": 30,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P76",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 5,
+   "job_id": "dae5vgm42tqs73au9ch0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:23.985360",
+   "depth": 105,
+   "ops": {
+    "sx": 62,
+    "rz": 51,
+    "cz": 30,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 1,
+   "job_id": "dae5vgt1ierc738lmvq0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:26.944390",
+   "depth": 36,
+   "ops": {
+    "sx": 23,
+    "rz": 20,
+    "cz": 9,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 2,
+   "job_id": "dae5vh3dd5gc73d85u0g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:26.944390",
+   "depth": 36,
+   "ops": {
+    "sx": 23,
+    "rz": 20,
+    "cz": 9,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 3,
+   "job_id": "dae5vh3dd5gc73d85u1g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:26.944390",
+   "depth": 36,
+   "ops": {
+    "sx": 23,
+    "rz": 20,
+    "cz": 9,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 4,
+   "job_id": "dae5vhbdd5gc73d85u20",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:26.944390",
+   "depth": 36,
+   "ops": {
+    "sx": 23,
+    "rz": 20,
+    "cz": 9,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 5,
+   "job_id": "dae5vhbdd5gc73d85u2g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:26.944390",
+   "depth": 36,
+   "ops": {
+    "sx": 23,
+    "rz": 20,
+    "cz": 9,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 1,
+   "job_id": "dae5vhjdd5gc73d85u3g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:29.795671",
+   "depth": 71,
+   "ops": {
+    "sx": 38,
+    "rz": 36,
+    "cz": 18,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 2,
+   "job_id": "dae5vhjdd5gc73d85u40",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:29.795671",
+   "depth": 71,
+   "ops": {
+    "sx": 38,
+    "rz": 36,
+    "cz": 18,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 3,
+   "job_id": "dae5vhtnj4cs73aenhdg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:29.795671",
+   "depth": 71,
+   "ops": {
+    "sx": 38,
+    "rz": 36,
+    "cz": 18,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 4,
+   "job_id": "dae5vht1ierc738lmvt0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:29.795671",
+   "depth": 71,
+   "ops": {
+    "sx": 38,
+    "rz": 36,
+    "cz": 18,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 5,
+   "job_id": "dae5vi51ierc738lmvu0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:29.795671",
+   "depth": 71,
+   "ops": {
+    "sx": 38,
+    "rz": 36,
+    "cz": 18,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 1,
+   "job_id": "dae5vie42tqs73au9ckg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:32.670430",
+   "depth": 103,
+   "ops": {
+    "sx": 64,
+    "rz": 53,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 2,
+   "job_id": "dae5vie42tqs73au9cl0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:32.670430",
+   "depth": 103,
+   "ops": {
+    "sx": 64,
+    "rz": 53,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 3,
+   "job_id": "dae5vijdd5gc73d85u60",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:32.670430",
+   "depth": 103,
+   "ops": {
+    "sx": 64,
+    "rz": 53,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 4,
+   "job_id": "dae5vil1ierc738lmvv0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:32.670430",
+   "depth": 103,
+   "ops": {
+    "sx": 64,
+    "rz": 53,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 5,
+   "job_id": "dae5vit1ierc738ln000",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:32.670430",
+   "depth": 103,
+   "ops": {
+    "sx": 64,
+    "rz": 53,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 1,
+   "job_id": "dae5vj51ierc738ln010",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:35.583814",
+   "depth": 37,
+   "ops": {
+    "sx": 22,
+    "rz": 20,
+    "cz": 9,
+    "x": 4,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 2,
+   "job_id": "dae5vj642tqs73au9cn0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:35.583814",
+   "depth": 37,
+   "ops": {
+    "sx": 22,
+    "rz": 20,
+    "cz": 9,
+    "x": 4,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 3,
+   "job_id": "dae5vjd1ierc738ln01g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:35.583814",
+   "depth": 37,
+   "ops": {
+    "sx": 22,
+    "rz": 20,
+    "cz": 9,
+    "x": 4,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 4,
+   "job_id": "dae5vjd1ierc738ln020",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:35.583814",
+   "depth": 37,
+   "ops": {
+    "sx": 22,
+    "rz": 20,
+    "cz": 9,
+    "x": 4,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 5,
+   "job_id": "dae5vjlnj4cs73aenhi0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:35.583814",
+   "depth": 37,
+   "ops": {
+    "sx": 22,
+    "rz": 20,
+    "cz": 9,
+    "x": 4,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 1,
+   "job_id": "dae5vjl1ierc738ln03g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:38.466666",
+   "depth": 68,
+   "ops": {
+    "sx": 40,
+    "rz": 39,
+    "cz": 18,
+    "x": 5,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 2,
+   "job_id": "dae5vjtnj4cs73aenhjg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:38.466666",
+   "depth": 68,
+   "ops": {
+    "sx": 40,
+    "rz": 39,
+    "cz": 18,
+    "x": 5,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 3,
+   "job_id": "dae5vk642tqs73au9cog",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:38.466666",
+   "depth": 68,
+   "ops": {
+    "sx": 40,
+    "rz": 39,
+    "cz": 18,
+    "x": 5,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 4,
+   "job_id": "dae5vkdnj4cs73aenhkg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:38.466666",
+   "depth": 68,
+   "ops": {
+    "sx": 40,
+    "rz": 39,
+    "cz": 18,
+    "x": 5,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 5,
+   "job_id": "dae5vkdnj4cs73aenhlg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:38.466666",
+   "depth": 68,
+   "ops": {
+    "sx": 40,
+    "rz": 39,
+    "cz": 18,
+    "x": 5,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 1,
+   "job_id": "dae5vkl1ierc738ln060",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:41.841016",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 2,
+   "job_id": "dae5vkl1ierc738ln070",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:41.841016",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 3,
+   "job_id": "dae5vkrdd5gc73d85uag",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:41.841016",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 4,
+   "job_id": "dae5vl642tqs73au9cqg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:41.841016",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P79",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 5,
+   "job_id": "dae5vl642tqs73au9cr0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:41.841016",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 1,
+   "job_id": "dae5vle42tqs73au9crg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:44.912469",
+   "depth": 36,
+   "ops": {
+    "sx": 22,
+    "rz": 20,
+    "cz": 9,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 2,
+   "job_id": "dae5vljdd5gc73d85ucg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:44.912469",
+   "depth": 36,
+   "ops": {
+    "sx": 22,
+    "rz": 20,
+    "cz": 9,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 3,
+   "job_id": "dae5vljdd5gc73d85ud0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:44.912469",
+   "depth": 36,
+   "ops": {
+    "sx": 22,
+    "rz": 20,
+    "cz": 9,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 4,
+   "job_id": "dae5vlu42tqs73au9ctg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:44.912469",
+   "depth": 36,
+   "ops": {
+    "sx": 22,
+    "rz": 20,
+    "cz": 9,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 1,
+   "run": 5,
+   "job_id": "dae5vm3dd5gc73d85ue0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:44.912469",
+   "depth": 36,
+   "ops": {
+    "sx": 22,
+    "rz": 20,
+    "cz": 9,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 1,
+   "job_id": "dae5vm642tqs73au9cug",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:48.205665",
+   "depth": 67,
+   "ops": {
+    "sx": 40,
+    "rz": 37,
+    "cz": 18,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 2,
+   "job_id": "dae5vmd1ierc738ln0a0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:48.205665",
+   "depth": 67,
+   "ops": {
+    "sx": 40,
+    "rz": 37,
+    "cz": 18,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 3,
+   "job_id": "dae5vmdnj4cs73aenhpg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:48.205665",
+   "depth": 67,
+   "ops": {
+    "sx": 40,
+    "rz": 37,
+    "cz": 18,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 4,
+   "job_id": "dae5vmlnj4cs73aenhq0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:48.205665",
+   "depth": 67,
+   "ops": {
+    "sx": 40,
+    "rz": 37,
+    "cz": 18,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 2,
+   "run": 5,
+   "job_id": "dae5vmt1ierc738ln0bg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:48.205665",
+   "depth": 67,
+   "ops": {
+    "sx": 40,
+    "rz": 37,
+    "cz": 18,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 1,
+   "job_id": "dae5vmt1ierc738ln0c0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:51.299342",
+   "depth": 105,
+   "ops": {
+    "sx": 66,
+    "rz": 55,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 2,
+   "job_id": "dae5vn3dd5gc73d85ugg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:51.299342",
+   "depth": 105,
+   "ops": {
+    "sx": 66,
+    "rz": 55,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 3,
+   "job_id": "dae5vndnj4cs73aenhrg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:51.299342",
+   "depth": 105,
+   "ops": {
+    "sx": 66,
+    "rz": 55,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 4,
+   "job_id": "dae5vnbdd5gc73d85ui0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:51.299342",
+   "depth": 105,
+   "ops": {
+    "sx": 66,
+    "rz": 55,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 0.5,
+   "p": 3,
+   "run": 5,
+   "job_id": "dae5vnlnj4cs73aenht0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:51.299342",
+   "depth": 105,
+   "ops": {
+    "sx": 66,
+    "rz": 55,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 1,
+   "job_id": "dae5vnjdd5gc73d85uj0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:54.193699",
+   "depth": 37,
+   "ops": {
+    "rz": 21,
+    "sx": 21,
+    "cz": 9,
+    "x": 4,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 2,
+   "job_id": "dae5vntnj4cs73aenhu0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:54.193699",
+   "depth": 37,
+   "ops": {
+    "rz": 21,
+    "sx": 21,
+    "cz": 9,
+    "x": 4,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 3,
+   "job_id": "dae5vnt1ierc738ln0e0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:54.193699",
+   "depth": 37,
+   "ops": {
+    "rz": 21,
+    "sx": 21,
+    "cz": 9,
+    "x": 4,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 4,
+   "job_id": "dae5vo5nj4cs73aenhug",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:54.193699",
+   "depth": 37,
+   "ops": {
+    "rz": 21,
+    "sx": 21,
+    "cz": 9,
+    "x": 4,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 1,
+   "run": 5,
+   "job_id": "dae5vod1ierc738ln0fg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:54.193699",
+   "depth": 37,
+   "ops": {
+    "rz": 21,
+    "sx": 21,
+    "cz": 9,
+    "x": 4,
+    "measure": 3
+   },
+   "final_index_layout": [
+    149,
+    148,
+    147
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 1,
+   "job_id": "dae5vodnj4cs73aenhvg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:57.208735",
+   "depth": 70,
+   "ops": {
+    "sx": 39,
+    "rz": 35,
+    "cz": 18,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 2,
+   "job_id": "dae5vom42tqs73au9d3g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:57.208735",
+   "depth": 70,
+   "ops": {
+    "sx": 39,
+    "rz": 35,
+    "cz": 18,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 3,
+   "job_id": "dae5vom42tqs73au9d4g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:57.208735",
+   "depth": 70,
+   "ops": {
+    "sx": 39,
+    "rz": 35,
+    "cz": 18,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 4,
+   "job_id": "dae5vordd5gc73d85um0",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:57.208735",
+   "depth": 70,
+   "ops": {
+    "sx": 39,
+    "rz": 35,
+    "cz": 18,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 2,
+   "run": 5,
+   "job_id": "dae5votnj4cs73aeni10",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:30:57.208735",
+   "depth": 70,
+   "ops": {
+    "sx": 39,
+    "rz": 35,
+    "cz": 18,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 1,
+   "job_id": "dae5vp642tqs73au9d60",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:31:00.029885",
+   "depth": 110,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 2,
+   "job_id": "dae5vpd1ierc738ln0hg",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:31:00.029885",
+   "depth": 110,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 3,
+   "job_id": "dae5vpe42tqs73au9d70",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:31:00.029885",
+   "depth": 110,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 4,
+   "job_id": "dae5vpm42tqs73au9d7g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:31:00.029885",
+   "depth": 110,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "group": "P85",
+   "penalty_factor": 1.1,
+   "p": 3,
+   "run": 5,
+   "job_id": "dae5vpm42tqs73au9d8g",
+   "last_update": "2026-09-05 13:58:59-04:00",
+   "submitted": "2026-09-05T14:31:00.029885",
+   "depth": 110,
+   "ops": {
+    "sx": 64,
+    "rz": 55,
+    "cz": 30,
+    "measure": 3,
+    "x": 2
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  }
+ ]
+}

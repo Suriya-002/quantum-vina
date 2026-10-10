@@ -1,0 +1,1063 @@
+{
+ "built": "2026-09-05T19:36:40.853734",
+ "PENALTY_FACTOR": 1.1,
+ "GRID": 40,
+ "SHOTS": 4096,
+ "N_RUNS": 5,
+ "seed_transpiler": 2026,
+ "dry_run": true,
+ "bit_convention": "node i <-> qubit i <-> classical bit i; subproblem bit k <-> node group[k]",
+ "targets": {
+  "2bm2": {
+   "P": 1.1,
+   "w": [
+    0.2583590098476993,
+    0.9559262365221263,
+    0.9741636259999217,
+    0.530395762168669,
+    0.5379949244220308,
+    0.5987840790391894,
+    0.9528867400294212,
+    0.9817620439512926,
+    0.5714292752807058,
+    0.9802432192944867,
+    1.0
+   ],
+   "nonedges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   "xstar_clbit": "00010001010",
+   "monolithic": {
+    "gamma": -0.4027682889217683,
+    "beta": 0.5235987755982987,
+    "grid": "40x40",
+    "ideal_valid_frac": 0.5682294026757779,
+    "ideal_xstar_prob": 0.006376963282619616,
+    "ideal_xstar_over_uniform": 0.4152330737301771,
+    "ideal_top_state": "00000000000",
+    "ideal_top_state_valid": false
+   },
+   "subproblems": {
+    "P76": {
+     "nodes": [
+      2,
+      3,
+      4
+     ],
+     "weights": [
+      0.9741636259999217,
+      0.530395762168669,
+      0.5379949244220308
+     ],
+     "ground_state_bits": "001",
+     "singles_ideal": {
+      "001": 0.7419415838955472,
+      "010": 0.06078996016876073,
+      "100": 0.06503665862993162
+     },
+     "pairs_ideal": {
+      "110": 0.02120449754744098,
+      "101": 0.053743251949600876,
+      "011": 0.048964486529305636
+     }
+    },
+    "P79": {
+     "nodes": [
+      5,
+      6,
+      7
+     ],
+     "weights": [
+      0.5987840790391894,
+      0.9528867400294212,
+      0.9817620439512926
+     ],
+     "ground_state_bits": "100",
+     "singles_ideal": {
+      "001": 0.046231088609687485,
+      "010": 0.4218429618422097,
+      "100": 0.4745322727974676
+     },
+     "pairs_ideal": {
+      "110": 0.056864226643986895,
+      "101": 0.00014825365987948302,
+      "011": 0.0001959437738529875
+     }
+    },
+    "P85": {
+     "nodes": [
+      8,
+      9,
+      10
+     ],
+     "weights": [
+      0.5714292752807058,
+      0.9802432192944867,
+      1.0
+     ],
+     "ground_state_bits": "100",
+     "singles_ideal": {
+      "001": 0.0029663344151422324,
+      "010": 0.44681110574931077,
+      "100": 0.451489072084388
+     },
+     "pairs_ideal": {
+      "110": 0.09203804673252332,
+      "101": 0.0016452793508235067,
+      "011": 0.003733085813197682
+     }
+    }
+   }
+  },
+  "1hsg": {
+   "P": 1.1,
+   "w": [
+    0.2982998943750439,
+    0.8176206950415917,
+    0.6383314060920916,
+    0.9459042193820457,
+    0.9273571307380887,
+    0.6105108033067821,
+    0.9227203563934254,
+    0.9227203476587159,
+    0.4868628514563436,
+    0.9350851610570823,
+    1.0
+   ],
+   "nonedges": [
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     10
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     8
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     4,
+     10
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     5,
+     8
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     10
+    ]
+   ],
+   "xstar_clbit": "00110001000",
+   "monolithic": {
+    "gamma": -0.4027682889217683,
+    "beta": 0.5235987755982987,
+    "grid": "40x40",
+    "ideal_valid_frac": 0.5836306242796321,
+    "ideal_xstar_prob": 0.005102032547021763,
+    "ideal_xstar_over_uniform": 0.2884822472424773,
+    "ideal_top_state": "00000000000",
+    "ideal_top_state_valid": false
+   },
+   "subproblems": {}
+  }
+ },
+ "note": "Repaired 2026-10-10 by preflight.py: the original file was overwritten by a later dry run. Jobs and ideal values are those of the executed 5 Sep build (from corrected_penalty_results.json); monolithic angles are the executed 40x40 grid point.",
+ "jobs": [
+  {
+   "target": "2bm2",
+   "arm": "monolithic_p1",
+   "run": 1,
+   "job_id": "dae331bdd5gc73d82bm0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:08.070230",
+   "depth": 243,
+   "ops": {
+    "sx": 269,
+    "rz": 168,
+    "cz": 130,
+    "measure": 11,
+    "x": 2
+   },
+   "final_index_layout": [
+    9,
+    33,
+    30,
+    32,
+    31,
+    14,
+    13,
+    12,
+    18,
+    10,
+    11
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "monolithic_p1",
+   "run": 2,
+   "job_id": "dae331lnj4cs73aejuj0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:08.070230",
+   "depth": 243,
+   "ops": {
+    "sx": 269,
+    "rz": 168,
+    "cz": 130,
+    "measure": 11,
+    "x": 2
+   },
+   "final_index_layout": [
+    9,
+    33,
+    30,
+    32,
+    31,
+    14,
+    13,
+    12,
+    18,
+    10,
+    11
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "monolithic_p1",
+   "run": 3,
+   "job_id": "dae331t1ierc738ljdl0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:08.070230",
+   "depth": 243,
+   "ops": {
+    "sx": 269,
+    "rz": 168,
+    "cz": 130,
+    "measure": 11,
+    "x": 2
+   },
+   "final_index_layout": [
+    9,
+    33,
+    30,
+    32,
+    31,
+    14,
+    13,
+    12,
+    18,
+    10,
+    11
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "monolithic_p1",
+   "run": 4,
+   "job_id": "dae331tnj4cs73aejul0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:08.070230",
+   "depth": 243,
+   "ops": {
+    "sx": 269,
+    "rz": 168,
+    "cz": 130,
+    "measure": 11,
+    "x": 2
+   },
+   "final_index_layout": [
+    9,
+    33,
+    30,
+    32,
+    31,
+    14,
+    13,
+    12,
+    18,
+    10,
+    11
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "monolithic_p1",
+   "run": 5,
+   "job_id": "dae3325nj4cs73aejum0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:08.070230",
+   "depth": 243,
+   "ops": {
+    "sx": 269,
+    "rz": 168,
+    "cz": 130,
+    "measure": 11,
+    "x": 2
+   },
+   "final_index_layout": [
+    9,
+    33,
+    30,
+    32,
+    31,
+    14,
+    13,
+    12,
+    18,
+    10,
+    11
+   ]
+  },
+  {
+   "target": "1hsg",
+   "arm": "monolithic_p1",
+   "run": 1,
+   "job_id": "dae335tnj4cs73aejv20",
+   "backend": "ibm_fez",
+   "last_update": "2026-09-05 10:44:08-04:00",
+   "submitted": "2026-09-05T11:13:27.220659",
+   "depth": 251,
+   "ops": {
+    "sx": 314,
+    "rz": 193,
+    "cz": 164,
+    "measure": 11,
+    "x": 4
+   },
+   "final_index_layout": [
+    147,
+    145,
+    146,
+    141,
+    142,
+    144,
+    122,
+    124,
+    143,
+    123,
+    136
+   ]
+  },
+  {
+   "target": "1hsg",
+   "arm": "monolithic_p1",
+   "run": 2,
+   "job_id": "dae33651ierc738lje1g",
+   "backend": "ibm_fez",
+   "last_update": "2026-09-05 10:44:08-04:00",
+   "submitted": "2026-09-05T11:13:27.220659",
+   "depth": 251,
+   "ops": {
+    "sx": 314,
+    "rz": 193,
+    "cz": 164,
+    "measure": 11,
+    "x": 4
+   },
+   "final_index_layout": [
+    147,
+    145,
+    146,
+    141,
+    142,
+    144,
+    122,
+    124,
+    143,
+    123,
+    136
+   ]
+  },
+  {
+   "target": "1hsg",
+   "arm": "monolithic_p1",
+   "run": 3,
+   "job_id": "dae336d1ierc738lje2g",
+   "backend": "ibm_fez",
+   "last_update": "2026-09-05 10:44:08-04:00",
+   "submitted": "2026-09-05T11:13:27.220659",
+   "depth": 251,
+   "ops": {
+    "sx": 314,
+    "rz": 193,
+    "cz": 164,
+    "measure": 11,
+    "x": 4
+   },
+   "final_index_layout": [
+    147,
+    145,
+    146,
+    141,
+    142,
+    144,
+    122,
+    124,
+    143,
+    123,
+    136
+   ]
+  },
+  {
+   "target": "1hsg",
+   "arm": "monolithic_p1",
+   "run": 4,
+   "job_id": "dae336l1ierc738lje40",
+   "backend": "ibm_fez",
+   "last_update": "2026-09-05 10:44:08-04:00",
+   "submitted": "2026-09-05T11:13:27.220659",
+   "depth": 251,
+   "ops": {
+    "sx": 314,
+    "rz": 193,
+    "cz": 164,
+    "measure": 11,
+    "x": 4
+   },
+   "final_index_layout": [
+    147,
+    145,
+    146,
+    141,
+    142,
+    144,
+    122,
+    124,
+    143,
+    123,
+    136
+   ]
+  },
+  {
+   "target": "1hsg",
+   "arm": "monolithic_p1",
+   "run": 5,
+   "job_id": "dae336l1ierc738lje50",
+   "backend": "ibm_fez",
+   "last_update": "2026-09-05 10:44:08-04:00",
+   "submitted": "2026-09-05T11:13:27.220659",
+   "depth": 251,
+   "ops": {
+    "sx": 314,
+    "rz": 193,
+    "cz": 164,
+    "measure": 11,
+    "x": 4
+   },
+   "final_index_layout": [
+    147,
+    145,
+    146,
+    141,
+    142,
+    144,
+    122,
+    124,
+    143,
+    123,
+    136
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P76",
+   "run": 1,
+   "job_id": "dae332jdd5gc73d82bog",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:13.779547",
+   "depth": 107,
+   "ops": {
+    "sx": 63,
+    "rz": 56,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P76",
+   "run": 2,
+   "job_id": "dae332tnj4cs73aejung",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:13.779547",
+   "depth": 107,
+   "ops": {
+    "sx": 63,
+    "rz": 56,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P76",
+   "run": 3,
+   "job_id": "dae3333dd5gc73d82bq0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:13.779547",
+   "depth": 107,
+   "ops": {
+    "sx": 63,
+    "rz": 56,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P76",
+   "run": 4,
+   "job_id": "dae3335nj4cs73aejuo0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:13.779547",
+   "depth": 107,
+   "ops": {
+    "sx": 63,
+    "rz": 56,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P76",
+   "run": 5,
+   "job_id": "dae333e42tqs73au5q8g",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:13.779547",
+   "depth": 107,
+   "ops": {
+    "sx": 63,
+    "rz": 56,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P79",
+   "run": 1,
+   "job_id": "dae333m42tqs73au5q90",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:18.381233",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 54,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P79",
+   "run": 2,
+   "job_id": "dae333tnj4cs73aejuq0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:18.381233",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 54,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P79",
+   "run": 3,
+   "job_id": "dae3345nj4cs73aejur0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:18.381233",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 54,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P79",
+   "run": 4,
+   "job_id": "dae334e42tqs73au5qb0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:18.381233",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 54,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P79",
+   "run": 5,
+   "job_id": "dae334dnj4cs73aejut0",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:18.381233",
+   "depth": 109,
+   "ops": {
+    "sx": 64,
+    "rz": 54,
+    "cz": 30,
+    "measure": 3,
+    "x": 1
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P85",
+   "run": 1,
+   "job_id": "dae334tnj4cs73aejutg",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:22.792265",
+   "depth": 107,
+   "ops": {
+    "sx": 62,
+    "rz": 53,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P85",
+   "run": 2,
+   "job_id": "dae334rdd5gc73d82c00",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:22.792265",
+   "depth": 107,
+   "ops": {
+    "sx": 62,
+    "rz": 53,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P85",
+   "run": 3,
+   "job_id": "dae33551ierc738ljdug",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:22.792265",
+   "depth": 107,
+   "ops": {
+    "sx": 62,
+    "rz": 53,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P85",
+   "run": 4,
+   "job_id": "dae335bdd5gc73d82c2g",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:22.792265",
+   "depth": 107,
+   "ops": {
+    "sx": 62,
+    "rz": 53,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  },
+  {
+   "target": "2bm2",
+   "arm": "sub_p3_P85",
+   "run": 5,
+   "job_id": "dae335l1ierc738lje00",
+   "backend": "ibm_marrakesh",
+   "last_update": "2026-09-05 09:59:42-04:00",
+   "submitted": "2026-09-05T11:13:22.792265",
+   "depth": 107,
+   "ops": {
+    "sx": 62,
+    "rz": 53,
+    "cz": 30,
+    "x": 3,
+    "measure": 3
+   },
+   "final_index_layout": [
+    147,
+    149,
+    148
+   ]
+  }
+ ]
+}
